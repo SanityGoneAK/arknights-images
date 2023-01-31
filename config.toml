@@ -27,5 +27,6 @@ path_whitelist = [
     "spritepack/ui_sub_profession_icon_hub_h2_0.ab",  # Branch icons
     "spritepack/skill_icons_h2_0.ab",                 # Skill icons
     "spritepack/ui_eqiup_type_hub_h2_0.ab",           # Module type icons (e.g. "CHA-X", "CHA-Y")
-    "arts/items/item_icons_no_tiny_hub.ab"            # Items
+    "arts/items/item_icons_no_tiny_hub.ab",           # Currencies
+    "spritepack/ui_item_icons_h1_0.ab"                # Items
 ]
