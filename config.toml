@@ -23,4 +23,10 @@ path_whitelist = [
     "chararts",                                     # Operator artworks (E0, E2); includes Spine assets
     "skinpack",                                     # Operator artworks (skin); includes Spine assets
     "ui_equip_big_img_hub_h1",                      # Equipment modules
+    "arts/skills",
+    "subprofessionicon",
+    "arts/profession_large",
+    "uniequiptype",
+    "items/icons"
 ]
+
