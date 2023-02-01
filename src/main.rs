@@ -6,6 +6,7 @@ use arkdata::{
     UpdateInfo, Version, CONFIG, VERSION,
 };
 use flume::unbounded;
+use glob::glob;
 use pyo3::{types::PyBytes, Python};
 use rayon::iter::{ParallelBridge, ParallelIterator};
 use reqwest::Client;
@@ -75,4 +76,14 @@ async fn main() {
 
     combine_textures();
     process_portraits();
+
+    glob(&CONFIG.output_dir.join("**/*#*.png").to_string_lossy())
+        .unwrap()
+        .into_iter()
+        .filter_map(Result::ok)
+        .filter(|path| path.is_file())
+        .for_each(|path| {
+            let new_path = path.to_string_lossy().replace("#", "__");
+            std::fs::rename(path, new_path).unwrap();
+        });
 }
