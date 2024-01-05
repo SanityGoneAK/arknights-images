@@ -17,3 +17,5 @@ __pycache__/
 **/SpriteAtlasTexture-*.png
 
 requirements.txt
+
+/assets/**
