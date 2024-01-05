@@ -19,5 +19,14 @@ path_whitelist = [
     "arts/building/buffs/buff_icon_hub.ab",       # Facility icons
     "spritepack/building_ui_buff_skills_h1_0.ab", # Base skill icons
     "spritepack/ui_char_avatar_",                 # Operator avatars
+    "arts/charportraits",                         # Operator portraits (E0, E2, skin)
+    "chararts",                                   # Operator artworks (E0, E2); includes Spine assets
+    "skinpack",                                   # Operator artworks (skin); includes Spine assets
+    "ui_equip_big_img_hub_h1",                    # Equipment modules
+    "arts/profession_large_hub.ab",                   # Class icons
+    "spritepack/ui_sub_profession_icon_hub_h2_0.ab",  # Branch icons
+    "spritepack/skill_icons_h2_0.ab",                 # Skill icons
+    "spritepack/ui_eqiup_type_hub_h2_0.ab",           # Module type icons (e.g. "CHA-X", "CHA-Y")
     "spritepack/ui_item_icons_h1_0.ab",           # Item icons
+    "arts/items/item_icons_no_tiny_hub.ab",       # Currencies
 ]
