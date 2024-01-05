@@ -15,3 +15,5 @@ __pycache__/
 
 # Unneeded
 **/SpriteAtlasTexture-*.png
+
+requirements.txt
