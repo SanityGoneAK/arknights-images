@@ -10,7 +10,6 @@ use std::{
     io::BufReader,
     iter::zip,
     path::PathBuf,
-    path::Path,
 };
 
 
@@ -193,7 +192,10 @@ pub fn convert_webp() {
             let img = open(&png_path).expect("Failed to open image");
             let encoder: Encoder = Encoder::from_image(&img).unwrap();
             let webp: WebPMemory = encoder.encode(100f32);
-            let output_path = Path::new("assets").join("lake").with_extension("webp");
+            let output_path = png_path.with_extension("webp");
             std::fs::write(&output_path, &*webp).unwrap();
+            remove_file(&png_path).unwrap_or_else(|_| {
+                panic!("Failed to delete image at {}", png_path.display())
+            });
         });
 }
