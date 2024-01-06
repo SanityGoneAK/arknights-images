@@ -1,6 +1,7 @@
 use crate::CONFIG;
 use glob::glob;
 use image::{imageops::FilterType, open, DynamicImage, GenericImageView};
+use webp::*;
 use imagepath::RgbaPath;
 use rayon::iter::{IntoParallelRefIterator, ParallelBridge, ParallelIterator};
 use serde::{de, Deserialize};
@@ -10,6 +11,7 @@ use std::{
     iter::zip,
     path::PathBuf,
 };
+
 
 mod imagepath {
     use std::path::{Path, PathBuf};
@@ -177,5 +179,23 @@ pub fn process_portraits() {
                     panic!("Failed to delete image at {}", portrait_path.display())
                 });
             }
+        });
+}
+
+pub fn convert_webp() {
+    glob(&format!("{}/**/*.png", CONFIG.output_dir.to_string_lossy()))
+        .expect("Failed to construct valid glob pattern")
+        .par_bridge()
+        .filter_map(Result::ok)
+        .for_each(|png_path| {
+            // Load PNG image
+            let img = open(&png_path).expect("Failed to open image");
+            let encoder: Encoder = Encoder::from_image(&img).unwrap();
+            let webp: WebPMemory = encoder.encode(100 as f32);
+            let output_path = png_path.with_extension("webp");
+            std::fs::write(&output_path, &*webp).unwrap();
+            remove_file(&output_path).unwrap_or_else(|_| {
+                panic!("Failed to delete image at {}", &output_path.display())
+            });
         });
 }

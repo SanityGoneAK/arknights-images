@@ -27,6 +27,7 @@ serde_json = "1.0.108"
 tap = "1.0.1"
 tokio = { version = "1.35.0", features = ["rt-multi-thread", "macros"] }
 toml = "0.8.8"
+webp = "0.2"
 zip = "0.6.6"
 
 [dev-dependencies]

@@ -2,7 +2,7 @@
 #![forbid(unsafe_code)]
 
 use arkdata::{
-    combine_textures, fetch_all, process_portraits, AssetBundle, Cache, NameHashMapping,
+    combine_textures, fetch_all, process_portraits, convert_webp, AssetBundle, Cache, NameHashMapping,
     UpdateInfo, Version, CONFIG, VERSION,
 };
 use flume::unbounded;
@@ -75,4 +75,5 @@ async fn main() {
 
     combine_textures();
     process_portraits();
+    convert_webp();
 }
