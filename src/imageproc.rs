@@ -1,7 +1,6 @@
 use crate::CONFIG;
 use glob::glob;
-use image::{imageops::FilterType, open, DynamicImage, GenericImageView};
-use webp::*;
+use image::{imageops::FilterType, open, DynamicImage, GenericImageView, codecs::webp::{WebPEncoder, WebPQuality}, ColorType};
 use imagepath::RgbaPath;
 use rayon::iter::{IntoParallelRefIterator, ParallelBridge, ParallelIterator};
 use serde::{de, Deserialize};
@@ -188,12 +187,17 @@ pub fn convert_webp() {
         .par_bridge()
         .filter_map(Result::ok)
         .for_each(|png_path| {
-            // Load PNG image
-            let img = open(&png_path).expect("Failed to open image");
-            let encoder: Encoder = Encoder::from_image(&img).unwrap();
-            let webp: WebPMemory = encoder.encode(100f32);
+            let image = open(&png_path).expect("Failed to open image");
             let output_path = png_path.with_extension("webp");
-            std::fs::write(&output_path, &*webp).unwrap();
+            let file = File::create(output_path).unwrap();
+
+            WebPEncoder::new_with_quality(file, WebPQuality::lossy(100u8)).encode(
+                image.as_bytes(),
+                image.width(),
+                image.height(),
+                ColorType::Rgba8,
+            ).unwrap();
+            
             remove_file(&png_path).unwrap_or_else(|_| {
                 panic!("Failed to delete image at {}", png_path.display())
             });

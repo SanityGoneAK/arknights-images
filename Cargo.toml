@@ -15,7 +15,7 @@ ahash = { version = "0.8.7", features = ["serde"] }
 anyhow = "1.0.79"
 bytes = "1.5.0"
 glob = "0.3.1"
-image = { version = "0.24.7", default-features = false, features = ["png"] }
+image = { version = "0.24.7", default-features = false, features = ["png", "webp", "webp-encoder"] }
 once_cell = "1.19.0"
 pyo3 = { version = "0.20.2", default-features = false, features = ["auto-initialize"] }
 rayon = "1.8.0"
@@ -25,7 +25,6 @@ serde_json = "1.0.111"
 tap = "1.0.1"
 tokio = { version = "1.35.1", features = ["macros", "rt-multi-thread"] }
 toml = "0.8.8"
-webp = "0.2"
 zip = "0.6.6"
 
 [dev-dependencies]
