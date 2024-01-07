@@ -2,15 +2,11 @@
 #![forbid(unsafe_code)]
 
 use arkdata::{
-    combine_textures, fetch_all, process_portraits, AssetBundle, Cache, NameHashMapping,
-    UpdateInfo, Version, CONFIG, VERSION,
+    combine_textures, fetch_all, process_portraits, convert_webp, Cache, NameHashMapping, UpdateInfo, Version,
+    CONFIG, VERSION,
 };
-use flume::unbounded;
-use glob::glob;
-use pyo3::{types::PyBytes, Python};
-use rayon::iter::{ParallelBridge, ParallelIterator};
 use reqwest::Client;
-use std::{fs, thread};
+use std::fs::create_dir_all;
 
 #[tokio::main]
 async fn main() {
@@ -39,29 +35,10 @@ async fn main() {
     };
 
     if !CONFIG.output_dir.is_dir() {
-        fs::create_dir_all(&CONFIG.output_dir).expect("Failed to create output directory");
+        create_dir_all(&CONFIG.output_dir).expect("Failed to create output directory");
     }
 
-    let (sender, receiver) = unbounded::<AssetBundle>();
-
-    let thread_handle = thread::spawn(|| {
-        receiver.into_iter().par_bridge().for_each(|bundle| {
-            Python::with_gil(|py| {
-                let extract = py.import("kawapack").unwrap().getattr("extract").unwrap();
-                let data = PyBytes::new_with(py, bundle.data.len(), |bytes| {
-                    bytes.copy_from_slice(&bundle.data);
-                    Ok(())
-                })
-                .unwrap();
-
-                extract
-                    .call1((data, bundle.path, &CONFIG.output_dir))
-                    .unwrap();
-            });
-        });
-    });
-
-    fetch_all(&name_to_hash_mapping, &asset_info, &client, sender).await;
+    fetch_all(&name_to_hash_mapping, &asset_info, &client).await;
 
     if CONFIG.update_cache {
         let mut version = version;
@@ -72,18 +49,7 @@ async fn main() {
         name_to_hash_mapping.save(&CONFIG.hashes_path);
     }
 
-    thread_handle.join().unwrap();
-
     combine_textures();
     process_portraits();
-
-    glob(&CONFIG.output_dir.join("**/*#*.png").to_string_lossy())
-        .unwrap()
-        .into_iter()
-        .filter_map(Result::ok)
-        .filter(|path| path.is_file())
-        .for_each(|path| {
-            let new_path = path.to_string_lossy().replace("#", "__");
-            std::fs::rename(path, new_path).unwrap();
-        });
+    convert_webp();
 }

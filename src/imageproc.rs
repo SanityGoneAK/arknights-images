@@ -1,6 +1,6 @@
 use crate::CONFIG;
 use glob::glob;
-use image::{imageops::FilterType, open, DynamicImage, GenericImageView};
+use image::{imageops::FilterType, open, DynamicImage, GenericImageView, codecs::webp::{WebPEncoder, WebPQuality}, ColorType};
 use imagepath::RgbaPath;
 use rayon::iter::{IntoParallelRefIterator, ParallelBridge, ParallelIterator};
 use serde::{de, Deserialize};
@@ -10,6 +10,7 @@ use std::{
     iter::zip,
     path::PathBuf,
 };
+
 
 mod imagepath {
     use std::path::{Path, PathBuf};
@@ -35,7 +36,7 @@ mod imagepath {
                 })
             })
         }
-        pub fn new(alpha: PathBuf) -> Option<Self> {
+        pub fn from_alpha_path(alpha: PathBuf) -> Option<Self> {
             Self::get_rgb_path(&alpha).map(|rgb| Self { rgb, alpha })
         }
     }
@@ -56,7 +57,7 @@ pub fn combine_textures() {
         .expect("Failed to construct valid glob pattern")
         .par_bridge()
         .filter_map(Result::ok)
-        .filter_map(RgbaPath::new)
+        .filter_map(RgbaPath::from_alpha_path)
         .for_each(|paths| {
             if let Ok(rgb_image) = open(&paths.rgb) {
                 if let Ok(alpha_image) = open(&paths.alpha) {
@@ -177,5 +178,28 @@ pub fn process_portraits() {
                     panic!("Failed to delete image at {}", portrait_path.display())
                 });
             }
+        });
+}
+
+pub fn convert_webp() {
+    glob(&format!("{}/**/*.png", CONFIG.output_dir.to_string_lossy()))
+        .expect("Failed to construct valid glob pattern")
+        .par_bridge()
+        .filter_map(Result::ok)
+        .for_each(|png_path| {
+            let image = open(&png_path).expect("Failed to open image");
+            let output_path = png_path.with_extension("webp");
+            let file = File::create(output_path).unwrap();
+
+            WebPEncoder::new_with_quality(file, WebPQuality::Lossless).encode(
+                image.as_bytes(),
+                image.width(),
+                image.height(),
+                ColorType::Rgba8,
+            ).unwrap();
+
+            remove_file(&png_path).unwrap_or_else(|_| {
+                panic!("Failed to delete image at {}", png_path.display())
+            });
         });
 }

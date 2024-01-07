@@ -9,45 +9,42 @@ jobs:
   main:
     runs-on: ubuntu-22.04
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
-    - name: Convert Poetry lockfile
-      run: |
-        pipx install poetry
-        poetry export -f requirements.txt -o requirements.txt --without-hashes
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.11"
-        cache: "pip"
+      - name: Convert Poetry lockfile
+        run: |
+          poetry export -f requirements.txt -o requirements.txt --without-hashes
 
-    - name: Install Python dependencies
-      run: pip install -r requirements.txt
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+          cache: "pip"
 
-    - name: Set up Rust
-      uses: dtolnay/rust-toolchain@stable
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
 
-    - name: Set up Rust cache
-      uses: Swatinem/rust-cache@v2
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
 
-    - name: Build app
-      run: cargo build --release
+      - name: Set up Rust cache
+        uses: Swatinem/rust-cache@v2
 
-    - name: Install necessary DLLs
-      run: sudo apt-get -y install libogg0 libvorbis0a libvorbisenc2 libvorbisfile3
+      - name: Build app
+        run: cargo build --release
 
-    - name: Run app
-      run: ./target/release/arkdata
+      - name: Run app
+        run: ./target/release/arkdata
 
-    - name: Commit updates
-      run: |
-        git config --global user.name "Kawabot"
-        git config --global user.email "actions@users.noreply.github.com"
-        git pull --all
-        git add cache
-        git add assets
-        git diff-index --quiet HEAD || git commit -m "Update data" && git push
-
-    
+      - name: Commit updates
+        run: |
+          git config --global user.name "Kawabot"
+          git config --global user.email "actions@users.noreply.github.com"
+          git pull --all
+          git add cache
+          git add assets
+          git diff-index --quiet HEAD || git commit -m "Update data" && git push

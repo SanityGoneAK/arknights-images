@@ -2951,7 +2951,11 @@
             "atlas": 61
         },
         {
-            "name": "char_421_crow_summer#9",
+            "name": "char_4083_chimes_2",
+            "atlas": 61
+        },
+        {
+            "name": "char_4082_qiubai_1",
             "atlas": 61
         },
         {
@@ -2975,11 +2979,39 @@
             "atlas": 61
         },
         {
+            "name": "char_103_angel_sale#8",
+            "atlas": 61
+        },
+        {
             "name": "char_485_pallas_epoque#19",
             "atlas": 62
         },
         {
+            "name": "char_4083_chimes_1",
+            "atlas": 62
+        },
+        {
+            "name": "char_4082_qiubai_2",
+            "atlas": 62
+        },
+        {
+            "name": "char_4055_bgsnow_wild#7",
+            "atlas": 62
+        },
+        {
             "name": "char_4040_rockr_lxh#1",
+            "atlas": 62
+        },
+        {
+            "name": "char_4036_forcer_epoque#20",
+            "atlas": 62
+        },
+        {
+            "name": "char_4032_provs_wild#7",
+            "atlas": 62
+        },
+        {
+            "name": "char_215_mantic_epoque#19",
             "atlas": 62
         },
         {
@@ -2991,12 +3023,568 @@
             "atlas": 62
         },
         {
-            "name": "char_496_wildmn_epoque#16",
+            "name": "char_185_frncat_wild#7",
+            "atlas": 62
+        },
+        {
+            "name": "char_110_deepcl_winter#3",
+            "atlas": 62
+        },
+        {
+            "name": "char_421_crow_summer#9",
             "atlas": 63
         },
         {
-            "name": "char_475_akafyu_epoque#15",
+            "name": "char_4091_ulika_1",
             "atlas": 63
+        },
+        {
+            "name": "char_4077_palico_mh#1",
+            "atlas": 63
+        },
+        {
+            "name": "char_4077_palico_1",
+            "atlas": 63
+        },
+        {
+            "name": "char_388_mint_epoque#22",
+            "atlas": 63
+        },
+        {
+            "name": "char_358_lisa_epoque#22",
+            "atlas": 63
+        },
+        {
+            "name": "char_336_folivo_epoque#22",
+            "atlas": 63
+        },
+        {
+            "name": "char_274_astesi_epoque#23",
+            "atlas": 63
+        },
+        {
+            "name": "char_1030_noirc2_2",
+            "atlas": 63
+        },
+        {
+            "name": "char_1030_noirc2_1",
+            "atlas": 63
+        },
+        {
+            "name": "char_1029_yato2_2",
+            "atlas": 63
+        },
+        {
+            "name": "char_1029_yato2_1",
+            "atlas": 63
+        },
+        {
+            "name": "char_491_humus_2",
+            "atlas": 64
+        },
+        {
+            "name": "char_491_humus_1",
+            "atlas": 64
+        },
+        {
+            "name": "char_464_cement_2",
+            "atlas": 64
+        },
+        {
+            "name": "char_464_cement_1",
+            "atlas": 64
+        },
+        {
+            "name": "char_4087_ines_2",
+            "atlas": 64
+        },
+        {
+            "name": "char_4087_ines_1",
+            "atlas": 64
+        },
+        {
+            "name": "char_4045_heidi_epoque#24",
+            "atlas": 64
+        },
+        {
+            "name": "char_4039_horn_epoque#24",
+            "atlas": 64
+        },
+        {
+            "name": "char_297_hamoni_epoque#24",
+            "atlas": 64
+        },
+        {
+            "name": "char_263_skadi_marthe#5",
+            "atlas": 64
+        },
+        {
+            "name": "char_154_morgan_2",
+            "atlas": 64
+        },
+        {
+            "name": "char_154_morgan_1",
+            "atlas": 64
+        },
+        {
+            "name": "char_484_robrta_ambiencesynesthesia#3",
+            "atlas": 65
+        },
+        {
+            "name": "char_4046_ebnhlz_boc#6",
+            "atlas": 65
+        },
+        {
+            "name": "char_4042_lumen_ambiencesynesthesia#3",
+            "atlas": 65
+        },
+        {
+            "name": "char_4009_irene_ambiencesynesthesia#3",
+            "atlas": 65
+        },
+        {
+            "name": "char_4000_jnight_boc#7",
+            "atlas": 65
+        },
+        {
+            "name": "char_278_orchid_boc#6",
+            "atlas": 65
+        },
+        {
+            "name": "char_249_mlyss_2",
+            "atlas": 65
+        },
+        {
+            "name": "char_249_mlyss_1",
+            "atlas": 65
+        },
+        {
+            "name": "char_1031_slent2_2",
+            "atlas": 65
+        },
+        {
+            "name": "char_1031_slent2_1",
+            "atlas": 65
+        },
+        {
+            "name": "char_1023_ghost2_boc#6",
+            "atlas": 65
+        },
+        {
+            "name": "char_1013_chen2_boc#6",
+            "atlas": 65
+        },
+        {
+            "name": "char_496_wildmn_epoque#16",
+            "atlas": 66
+        },
+        {
+            "name": "char_475_akafyu_epoque#15",
+            "atlas": 66
+        },
+        {
+            "name": "char_4093_frston_1",
+            "atlas": 66
+        },
+        {
+            "name": "char_4027_heyak_2",
+            "atlas": 66
+        },
+        {
+            "name": "char_4027_heyak_1",
+            "atlas": 66
+        },
+        {
+            "name": "char_4015_spuria_2",
+            "atlas": 66
+        },
+        {
+            "name": "char_4015_spuria_1",
+            "atlas": 66
+        },
+        {
+            "name": "char_4006_melnte_2",
+            "atlas": 66
+        },
+        {
+            "name": "char_4006_melnte_1",
+            "atlas": 66
+        },
+        {
+            "name": "char_1032_excu2_2",
+            "atlas": 66
+        },
+        {
+            "name": "char_1032_excu2_1",
+            "atlas": 66
+        },
+        {
+            "name": "char_003_kalts_boc#6",
+            "atlas": 66
+        },
+        {
+            "name": "char_498_inside_1",
+            "atlas": 67
+        },
+        {
+            "name": "char_479_sleach_summer#11",
+            "atlas": 67
+        },
+        {
+            "name": "char_4102_threye_2",
+            "atlas": 67
+        },
+        {
+            "name": "char_4102_threye_1",
+            "atlas": 67
+        },
+        {
+            "name": "char_4072_ironmn_summer#11",
+            "atlas": 67
+        },
+        {
+            "name": "char_344_beewax_summer#11",
+            "atlas": 67
+        },
+        {
+            "name": "char_341_sntlla_2",
+            "atlas": 67
+        },
+        {
+            "name": "char_341_sntlla_1",
+            "atlas": 67
+        },
+        {
+            "name": "char_302_glaze_summer#11",
+            "atlas": 67
+        },
+        {
+            "name": "char_2012_typhon_2",
+            "atlas": 67
+        },
+        {
+            "name": "char_2012_typhon_1",
+            "atlas": 67
+        },
+        {
+            "name": "char_135_halo_epoque#25",
+            "atlas": 67
+        },
+        {
+            "name": "char_498_inside_2",
+            "atlas": 68
+        },
+        {
+            "name": "char_488_buildr_2",
+            "atlas": 68
+        },
+        {
+            "name": "char_488_buildr_1",
+            "atlas": 68
+        },
+        {
+            "name": "char_4106_bryota_1",
+            "atlas": 68
+        },
+        {
+            "name": "char_348_ceylon_summer#13",
+            "atlas": 68
+        },
+        {
+            "name": "char_2012_typhon_wild#9",
+            "atlas": 68
+        },
+        {
+            "name": "char_151_myrtle_summer#12",
+            "atlas": 68
+        },
+        {
+            "name": "char_121_lava_sale#9",
+            "atlas": 68
+        },
+        {
+            "name": "char_1026_gvial2_summer#12",
+            "atlas": 68
+        },
+        {
+            "name": "char_1016_agoat2_2",
+            "atlas": 68
+        },
+        {
+            "name": "char_1016_agoat2_1",
+            "atlas": 68
+        },
+        {
+            "name": "char_1001_amiya2_casc#1",
+            "atlas": 68
+        },
+        {
+            "name": "char_430_fartth_whirlwind#5",
+            "atlas": 69
+        },
+        {
+            "name": "char_4106_bryota_2",
+            "atlas": 69
+        },
+        {
+            "name": "char_4071_peper_whirlwind#5",
+            "atlas": 69
+        },
+        {
+            "name": "char_4054_malist_summer#14",
+            "atlas": 69
+        },
+        {
+            "name": "char_4047_pianst_wild#8",
+            "atlas": 69
+        },
+        {
+            "name": "char_4041_chnut_summer#12",
+            "atlas": 69
+        },
+        {
+            "name": "char_4025_aprot2_whirlwind#5",
+            "atlas": 69
+        },
+        {
+            "name": "char_4014_lunacu_yun#1",
+            "atlas": 69
+        },
+        {
+            "name": "char_377_gdglow_summer#12",
+            "atlas": 69
+        },
+        {
+            "name": "char_362_saga_sale#9",
+            "atlas": 69
+        },
+        {
+            "name": "char_1033_swire2_2",
+            "atlas": 69
+        },
+        {
+            "name": "char_1033_swire2_1",
+            "atlas": 69
+        },
+        {
+            "name": "char_4105_almond_2",
+            "atlas": 70
+        },
+        {
+            "name": "char_4105_almond_1",
+            "atlas": 70
+        },
+        {
+            "name": "char_4104_coldst_2",
+            "atlas": 70
+        },
+        {
+            "name": "char_4104_coldst_1",
+            "atlas": 70
+        },
+        {
+            "name": "char_4082_qiubai_ncg#1",
+            "atlas": 71
+        },
+        {
+            "name": "char_4019_ncdeer_ncdeer#1",
+            "atlas": 71
+        },
+        {
+            "name": "char_209_ardign_epoque#26",
+            "atlas": 71
+        },
+        {
+            "name": "char_2023_ling_ncg#1",
+            "atlas": 71
+        },
+        {
+            "name": "char_106_franka_ncg#1",
+            "atlas": 71
+        },
+        {
+            "name": "char_1034_jesca2_2",
+            "atlas": 70
+        },
+        {
+            "name": "char_1034_jesca2_1",
+            "atlas": 70
+        },
+        {
+            "name": "char_494_vendla_2",
+            "atlas": 71
+        },
+        {
+            "name": "char_494_vendla_1",
+            "atlas": 71
+        },
+        {
+            "name": "char_492_quercu_witch#4",
+            "atlas": 71
+        },
+        {
+            "name": "char_436_whispr_witch#4",
+            "atlas": 71
+        },
+        {
+            "name": "char_427_vigil_epoque#27",
+            "atlas": 71
+        },
+        {
+            "name": "char_4048_doroth_witch#4",
+            "atlas": 71
+        },
+        {
+            "name": "char_300_phenxi_witch#4",
+            "atlas": 71
+        },
+        {
+            "name": "char_431_ashlok_epoque#28",
+            "atlas": 72
+        },
+        {
+            "name": "char_4100_caper_2",
+            "atlas": 72
+        },
+        {
+            "name": "char_4100_caper_1",
+            "atlas": 72
+        },
+        {
+            "name": "char_4098_vvana_2",
+            "atlas": 72
+        },
+        {
+            "name": "char_4098_vvana_1",
+            "atlas": 72
+        },
+        {
+            "name": "char_4088_hodrer_2",
+            "atlas": 72
+        },
+        {
+            "name": "char_4088_hodrer_1",
+            "atlas": 72
+        },
+        {
+            "name": "char_4064_mlynar_epoque#28",
+            "atlas": 72
+        },
+        {
+            "name": "char_4011_lessng_2",
+            "atlas": 72
+        },
+        {
+            "name": "char_4011_lessng_1",
+            "atlas": 72
+        },
+        {
+            "name": "char_245_cello_2",
+            "atlas": 72
+        },
+        {
+            "name": "char_245_cello_1",
+            "atlas": 72
+        },
+        {
+            "name": "char_499_kaitou_2",
+            "atlas": 73
+        },
+        {
+            "name": "char_499_kaitou_1",
+            "atlas": 73
+        },
+        {
+            "name": "char_4110_delphn_2",
+            "atlas": 73
+        },
+        {
+            "name": "char_4110_delphn_1",
+            "atlas": 73
+        },
+        {
+            "name": "char_4109_baslin_2",
+            "atlas": 73
+        },
+        {
+            "name": "char_4109_baslin_1",
+            "atlas": 73
+        },
+        {
+            "name": "char_405_absin_epoque#28",
+            "atlas": 73
+        },
+        {
+            "name": "char_341_sntlla_summer#15",
+            "atlas": 73
+        },
+        {
+            "name": "char_222_bpipe_epoque#28",
+            "atlas": 73
+        },
+        {
+            "name": "char_131_flameb_whirlwind#6",
+            "atlas": 73
+        },
+        {
+            "name": "char_126_shotst_epoque#28",
+            "atlas": 73
+        },
+        {
+            "name": "char_1028_texas2_iteration#1",
+            "atlas": 73
+        },
+        {
+            "name": "char_466_qanik_snow#6",
+            "atlas": 74
+        },
+        {
+            "name": "char_4065_judge_snow#6",
+            "atlas": 74
+        },
+        {
+            "name": "char_4017_puzzle_epoque#29",
+            "atlas": 74
+        },
+        {
+            "name": "char_343_tknogi_snow#6",
+            "atlas": 74
+        },
+        {
+            "name": "char_212_ansel_epoque#29",
+            "atlas": 74
+        },
+        {
+            "name": "char_194_leto_2",
+            "atlas": 74
+        },
+        {
+            "name": "char_194_leto_1",
+            "atlas": 74
+        },
+        {
+            "name": "char_4116_blkkgt_2",
+            "atlas": 75
+        },
+        {
+            "name": "char_4116_blkkgt_1",
+            "atlas": 75
+        },
+        {
+            "name": "char_4114_harold_2",
+            "atlas": 75
+        },
+        {
+            "name": "char_4114_harold_1",
+            "atlas": 75
+        },
+        {
+            "name": "char_4107_vrdant_2",
+            "atlas": 75
+        },
+        {
+            "name": "char_4107_vrdant_1",
+            "atlas": 75
         }
     ],
     "_atlases": [
@@ -3063,7 +3651,19 @@
         "Arts/CharPortraits/portraits#60",
         "Arts/CharPortraits/portraits#61",
         "Arts/CharPortraits/portraits#62",
-        "Arts/CharPortraits/portraits#63"
+        "Arts/CharPortraits/portraits#63",
+        "Arts/CharPortraits/portraits#64",
+        "Arts/CharPortraits/portraits#65",
+        "Arts/CharPortraits/portraits#66",
+        "Arts/CharPortraits/portraits#67",
+        "Arts/CharPortraits/portraits#68",
+        "Arts/CharPortraits/portraits#69",
+        "Arts/CharPortraits/portraits#70",
+        "Arts/CharPortraits/portraits#71",
+        "Arts/CharPortraits/portraits#72",
+        "Arts/CharPortraits/portraits#73",
+        "Arts/CharPortraits/portraits#74",
+        "Arts/CharPortraits/portraits#75"
     ],
     "_inputSpriteDir": "Assets/Torappu/Arts/CharPortraits",
     "_outputAtlasDir": "Assets/Torappu/Arts/CharPortraits/[X]Atlas",
