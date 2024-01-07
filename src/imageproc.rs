@@ -191,13 +191,13 @@ pub fn convert_webp() {
             let output_path = png_path.with_extension("webp");
             let file = File::create(output_path).unwrap();
 
-            WebPEncoder::new_with_quality(file, WebPQuality::lossy(100u8)).encode(
+            WebPEncoder::new_with_quality(file, WebPQuality::Lossless).encode(
                 image.as_bytes(),
                 image.width(),
                 image.height(),
                 ColorType::Rgba8,
             ).unwrap();
-            
+
             remove_file(&png_path).unwrap_or_else(|_| {
                 panic!("Failed to delete image at {}", png_path.display())
             });
