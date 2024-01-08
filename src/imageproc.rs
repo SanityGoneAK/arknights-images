@@ -191,7 +191,7 @@ pub fn convert_webp() {
             let output_path = png_path.with_extension("webp");
             let file = File::create(output_path).unwrap();
 
-            WebPEncoder::new_with_quality(file, WebPQuality::Lossless).encode(
+            WebPEncoder::new_with_quality(file, WebPQuality::lossless).encode(
                 image.as_bytes(),
                 image.width(),
                 image.height(),
