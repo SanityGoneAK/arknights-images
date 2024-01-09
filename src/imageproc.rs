@@ -197,9 +197,5 @@ pub fn convert_webp() {
                 image.height(),
                 ColorType::Rgba8,
             ).unwrap();
-
-            remove_file(&png_path).unwrap_or_else(|_| {
-                panic!("Failed to delete image at {}", png_path.display())
-            });
         });
 }

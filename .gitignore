@@ -18,7 +18,7 @@ __pycache__/
 
 requirements.txt
 
-# /assets/**
+/assets/**.png
 assets/chararts/char_*.png
 !assets/chararts/char_*_1*.png
 !assets/chararts/char_*_2*.png
