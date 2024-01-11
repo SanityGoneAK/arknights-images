@@ -51,5 +51,4 @@ async fn main() {
 
     combine_textures();
     process_portraits();
-    convert_webp();
 }

@@ -180,22 +180,3 @@ pub fn process_portraits() {
             }
         });
 }
-
-pub fn convert_webp() {
-    glob(&format!("{}/**/*.png", CONFIG.output_dir.to_string_lossy()))
-        .expect("Failed to construct valid glob pattern")
-        .par_bridge()
-        .filter_map(Result::ok)
-        .for_each(|png_path| {
-            let image = open(&png_path).expect("Failed to open image");
-            let output_path = png_path.with_extension("webp");
-            let file = File::create(output_path).unwrap();
-
-            WebPEncoder::new_with_quality(file, WebPQuality::lossless()).encode(
-                image.as_bytes(),
-                image.width(),
-                image.height(),
-                ColorType::Rgba8,
-            ).unwrap();
-        });
-}
