@@ -56,7 +56,7 @@ def export(obj: Object, target_path: Path) -> None:
         case Sprite() | Texture2D():
             if (img := obj.image).width > 0:
                 target_path.parent.mkdir(parents=True, exist_ok=True)
-                img.save(target_path.with_suffix(".png"))
+                img.save(target_path.with_suffix(".webp"))
 
         case TextAsset():
             target_path_str = target_path.as_posix()

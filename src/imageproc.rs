@@ -1,6 +1,6 @@
 use crate::CONFIG;
 use glob::glob;
-use image::{imageops::FilterType, open, DynamicImage, GenericImageView, codecs::webp::{WebPEncoder, WebPQuality}, ColorType};
+use image::{imageops::FilterType, open, DynamicImage, GenericImageView};
 use imagepath::RgbaPath;
 use rayon::iter::{IntoParallelRefIterator, ParallelBridge, ParallelIterator};
 use serde::{de, Deserialize};
@@ -29,7 +29,7 @@ mod imagepath {
                 ALPHA_SUFFIXES.iter().find_map(|suffix| {
                     stem_str.ends_with(suffix).then(|| {
                         path.with_file_name(format!(
-                            "{}.png",
+                            "{}.webp",
                             stem_str.rsplit_once(suffix).unwrap().0
                         ))
                     })
@@ -53,7 +53,7 @@ fn resize_alpha_layer(rgb: &DynamicImage, alpha: DynamicImage) -> DynamicImage {
 /// # Panics
 /// Panics if an image cannot be saved to or deleted from the filesystem.
 pub fn combine_textures() {
-    glob(&format!("{}/**/*.png", CONFIG.output_dir.to_string_lossy()))
+    glob(&format!("{}/**/*.webp", CONFIG.output_dir.to_string_lossy()))
         .expect("Failed to construct valid glob pattern")
         .par_bridge()
         .filter_map(Result::ok)
@@ -152,7 +152,7 @@ pub fn process_portraits() {
             let data: PortraitData = serde_json::from_reader(BufReader::new(file))
                 .unwrap_or_else(|_| panic!("Failed to deserialize from {}", data_path.display()));
 
-            let portrait_path = portrait_dir.join(data.name).with_extension("png");
+            let portrait_path = portrait_dir.join(data.name).with_extension("webp");
 
             if let Ok(portraits) = open(&portrait_path) {
                 let height = portraits.height();
@@ -168,7 +168,7 @@ pub fn process_portraits() {
                         portrait = portrait.rotate90();
                     }
 
-                    let target_path = portrait_dir.join(&sprite.name).with_extension("png");
+                    let target_path = portrait_dir.join(&sprite.name).with_extension("webp");
                     portrait.save(&target_path).unwrap_or_else(|_| {
                         panic!("Failed to save image to {}", target_path.display())
                     });

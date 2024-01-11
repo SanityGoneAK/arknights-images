@@ -2,7 +2,7 @@
 #![forbid(unsafe_code)]
 
 use arkdata::{
-    combine_textures, fetch_all, process_portraits, convert_webp, Cache, NameHashMapping, UpdateInfo, Version,
+    combine_textures, fetch_all, process_portraits, Cache, NameHashMapping, UpdateInfo, Version,
     CONFIG, VERSION,
 };
 use reqwest::Client;
