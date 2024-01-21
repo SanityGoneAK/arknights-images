@@ -55,6 +55,9 @@ def export(obj: Object, target_path: Path) -> None:
     match obj:
         case Sprite() | Texture2D():
             if (img := obj.image).width > 0:
+                target_path_str = target_path.as_posix()
+                if "assets/torappu/dynamicassets/arts/item" in target_path_str:
+                    target_path = Path("assets/torappu/dynamicassets/arts/item") / target_path.name
                 target_path.parent.mkdir(parents=True, exist_ok=True)
                 img.save(target_path.with_suffix(".webp"))
 
