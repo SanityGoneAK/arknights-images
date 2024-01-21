@@ -58,6 +58,8 @@ def export(obj: Object, target_path: Path) -> None:
                 target_path_str = target_path.as_posix()
                 if "assets/torappu/dynamicassets/arts/item" in target_path_str:
                     target_path = Path("assets/torappu/dynamicassets/arts/item") / target_path.name
+                if "assets/torappu/dynamicassets/arts/charavatars" in target_path_str:
+                    target_path = Path("assets/torappu/dynamicassets/arts/charavatars") / target_path.name
                 target_path.parent.mkdir(parents=True, exist_ok=True)
                 img.save(target_path.with_suffix(".webp"))
 
