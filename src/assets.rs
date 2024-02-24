@@ -10,10 +10,7 @@ use pyo3::{
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
 use std::{
-    future::Future,
-    io::{Cursor, Read},
-    sync::Arc,
-    time::Duration,
+    fs, future::Future, io::{Cursor, Read}, path::PathBuf, sync::Arc, time::Duration
 };
 use tap::Pipe;
 use tokio::task::{spawn_blocking, JoinHandle, JoinSet};
@@ -182,19 +179,44 @@ pub async fn fetch_all(hashes: &NameHashMapping, asset_info: &UpdateInfo, client
             .pipe(process_parallel)
             .await;
     } else {
+        let data_dir = CONFIG.output_dir.join(
+            [
+                "torappu",
+                "dynamicassets",
+                "arts",
+                "charportraits",
+                "UIAtlasTextureRef",
+            ]
+            .iter()
+            .collect::<PathBuf>(),
+        );
+
+        if let Err(err) = delete_files_in_directory(&data_dir) {
+            eprintln!("Error deleting files: {}", err);
+        } else {
+            println!("All files deleted successfully.");
+        }
+
         // Update collection of existing assets
         asset_info
             .ab_infos
             .iter()
             .filter(|entry| {
                 is_in_whitelist(&entry.name)
-                    && hashes
-                        .inner
-                        .get(&entry.name)
-                        .map_or(true, |hash| hash != &entry.md5)
             })
             .map(|entry| download_asset(entry.name.clone(), client.clone()))
             .pipe(process_parallel)
             .await;
     }
+}
+
+fn delete_files_in_directory(directory: &PathBuf) -> Result<(), std::io::Error> {
+    for entry in fs::read_dir(directory)? {
+        let entry = entry?;
+        let path = entry.path();
+        if path.is_file() {
+            fs::remove_file(path)?;
+        }
+    }
+    Ok(())
 }
