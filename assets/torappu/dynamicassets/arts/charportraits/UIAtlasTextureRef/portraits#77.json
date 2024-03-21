@@ -141,6 +141,18 @@
                 "h": 180
             },
             "rotate": 1
+        },
+        {
+            "name": "char_192_falco_marthe#6",
+            "guid": "1cea19143ea02a94095568075dc73839",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -212,20 +224,25 @@
                 "name": "char_4023_rfalcn_1",
                 "guid": "ebca3588af34cea4697f34921163f4fc",
                 "md5": "4f26683115679d5185e6e51f4f7716a8"
+            },
+            {
+                "name": "char_192_falco_marthe#6",
+                "guid": "1cea19143ea02a94095568075dc73839",
+                "md5": "c08e8bb7c1c3cbb09857460ed1ce839d"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#77",
                 "guid": "058801a803fb46648bc1e166d2c3d9d6",
-                "md5": "4b20bbff8310d59806bee5ceb9ed5bc8"
+                "md5": "0b5a3283b05bb558791df313aefc5a0b"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#77a",
                 "guid": "52d697bd3b67fc54eb038d7ab23811a0",
-                "md5": "31979780e923006bdbda2b711ef3a35c"
+                "md5": "2661dddcf88804f8827b84ace291713d"
             }
         ]
     }
