@@ -1,0 +1,130 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -6831197485353024473
+    },
+    "m_Name": "portraits#79",
+    "_sprites": [
+        {
+            "name": "char_489_serum_epoque#31",
+            "guid": "f0c9c9c590aacb745a2485709eec83ad",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_464_cement_epoque#31",
+            "guid": "decbed4f92911c140a342fd5d035cd4e",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_440_pinecn_epoque#31",
+            "guid": "f90311b9e6c08dc4690d5724122c9c02",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4125_rdoc_rainbow6#2",
+            "guid": "a56097a2d78cc4f4b95f82b3685a75c1",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4124_iana_rainbow6#2",
+            "guid": "970f56aff6cc70c4cbf2e405c8e71698",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        }
+    ],
+    "_atlas": {
+        "index": 0,
+        "texture": {
+            "m_FileID": 0,
+            "m_PathID": 5530351863560709953
+        },
+        "alpha": {
+            "m_FileID": 0,
+            "m_PathID": 3547475671451841169
+        },
+        "size": 1024
+    },
+    "_index": 79,
+    "_sign": {
+        "m_sprites": [
+            {
+                "name": "char_489_serum_epoque#31",
+                "guid": "f0c9c9c590aacb745a2485709eec83ad",
+                "md5": "c73da9d2459aa0fb9a961c8e64f523f7"
+            },
+            {
+                "name": "char_464_cement_epoque#31",
+                "guid": "decbed4f92911c140a342fd5d035cd4e",
+                "md5": "d2d013544222b2ae2b89c356c2f11946"
+            },
+            {
+                "name": "char_440_pinecn_epoque#31",
+                "guid": "f90311b9e6c08dc4690d5724122c9c02",
+                "md5": "bb43313730d740803af478c631c5f26c"
+            },
+            {
+                "name": "char_4125_rdoc_rainbow6#2",
+                "guid": "a56097a2d78cc4f4b95f82b3685a75c1",
+                "md5": "880f9722cef7b2d7f40b13a15b0227b2"
+            },
+            {
+                "name": "char_4124_iana_rainbow6#2",
+                "guid": "970f56aff6cc70c4cbf2e405c8e71698",
+                "md5": "5ada35b62886fedb1f8c1e9505166ed1"
+            }
+        ],
+        "m_atlases": [
+            {
+                "name": "portraits#79",
+                "guid": "be3e12cda1d96ba4894c05dcddf35610",
+                "md5": "9e61c0d4fce30144600ec21b883a176a"
+            }
+        ],
+        "m_alphas": [
+            {
+                "name": "portraits#79a",
+                "guid": "13b5dcab46ae2c441961948ca8bdb0fc",
+                "md5": "cad67c655f02212e0f0c12dcd6714e4a"
+            }
+        ]
+    }
+}
