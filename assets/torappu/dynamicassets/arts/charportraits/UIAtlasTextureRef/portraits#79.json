@@ -11,8 +11,8 @@
     "m_Name": "portraits#79",
     "_sprites": [
         {
-            "name": "char_489_serum_epoque#31",
-            "guid": "f0c9c9c590aacb745a2485709eec83ad",
+            "name": "char_446_aroma_2",
+            "guid": "df6de9efbc6ae0a49a897128df812589",
             "atlas": 0,
             "rect": {
                 "x": 0,
@@ -23,8 +23,8 @@
             "rotate": 0
         },
         {
-            "name": "char_464_cement_epoque#31",
-            "guid": "decbed4f92911c140a342fd5d035cd4e",
+            "name": "char_4082_qiubai_epoque#31",
+            "guid": "65f7ff86c76108d4194604d6f305076d",
             "atlas": 0,
             "rect": {
                 "x": 182,
@@ -35,8 +35,8 @@
             "rotate": 0
         },
         {
-            "name": "char_440_pinecn_epoque#31",
-            "guid": "f90311b9e6c08dc4690d5724122c9c02",
+            "name": "char_4027_heyak_ambiencesynesthesia#4",
+            "guid": "ea2bfc2f35354b2479348a4343b12a85",
             "atlas": 0,
             "rect": {
                 "x": 0,
@@ -47,8 +47,8 @@
             "rotate": 0
         },
         {
-            "name": "char_4125_rdoc_rainbow6#2",
-            "guid": "a56097a2d78cc4f4b95f82b3685a75c1",
+            "name": "char_172_svrash_ambiencesynesthesia#4",
+            "guid": "1fd5d7388958ac94687cfe7ea453f562",
             "atlas": 0,
             "rect": {
                 "x": 182,
@@ -59,8 +59,8 @@
             "rotate": 0
         },
         {
-            "name": "char_4124_iana_rainbow6#2",
-            "guid": "970f56aff6cc70c4cbf2e405c8e71698",
+            "name": "char_1033_swire2_ambiencesynesthesia#4",
+            "guid": "bc6d99cfa6112794bb50c0d43f081da2",
             "atlas": 0,
             "rect": {
                 "x": 364,
@@ -87,43 +87,43 @@
     "_sign": {
         "m_sprites": [
             {
-                "name": "char_489_serum_epoque#31",
-                "guid": "f0c9c9c590aacb745a2485709eec83ad",
-                "md5": "c73da9d2459aa0fb9a961c8e64f523f7"
+                "name": "char_446_aroma_2",
+                "guid": "df6de9efbc6ae0a49a897128df812589",
+                "md5": "7dd767fe50b22d4e8ee981faa8b2a5f3"
             },
             {
-                "name": "char_464_cement_epoque#31",
-                "guid": "decbed4f92911c140a342fd5d035cd4e",
-                "md5": "d2d013544222b2ae2b89c356c2f11946"
+                "name": "char_4082_qiubai_epoque#31",
+                "guid": "65f7ff86c76108d4194604d6f305076d",
+                "md5": "320faec2f237849bc70e9269f8d2a7b5"
             },
             {
-                "name": "char_440_pinecn_epoque#31",
-                "guid": "f90311b9e6c08dc4690d5724122c9c02",
-                "md5": "bb43313730d740803af478c631c5f26c"
+                "name": "char_4027_heyak_ambiencesynesthesia#4",
+                "guid": "ea2bfc2f35354b2479348a4343b12a85",
+                "md5": "e8cfea151d074185fc1278d605c833f6"
             },
             {
-                "name": "char_4125_rdoc_rainbow6#2",
-                "guid": "a56097a2d78cc4f4b95f82b3685a75c1",
-                "md5": "880f9722cef7b2d7f40b13a15b0227b2"
+                "name": "char_172_svrash_ambiencesynesthesia#4",
+                "guid": "1fd5d7388958ac94687cfe7ea453f562",
+                "md5": "71d586fed47653e947ff21f4d09089a3"
             },
             {
-                "name": "char_4124_iana_rainbow6#2",
-                "guid": "970f56aff6cc70c4cbf2e405c8e71698",
-                "md5": "5ada35b62886fedb1f8c1e9505166ed1"
+                "name": "char_1033_swire2_ambiencesynesthesia#4",
+                "guid": "bc6d99cfa6112794bb50c0d43f081da2",
+                "md5": "d65ae33f7cc4c0995a5eaeed86f60300"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#79",
                 "guid": "be3e12cda1d96ba4894c05dcddf35610",
-                "md5": "9e61c0d4fce30144600ec21b883a176a"
+                "md5": "2a67f15838d8bf97d5acde7e7dd49165"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#79a",
                 "guid": "13b5dcab46ae2c441961948ca8bdb0fc",
-                "md5": "cad67c655f02212e0f0c12dcd6714e4a"
+                "md5": "d8adc9aad4537afe903a4c26b50f816d"
             }
         ]
     }

@@ -11,11 +11,23 @@
     "m_Name": "portraits#78",
     "_sprites": [
         {
-            "name": "char_446_aroma_2",
-            "guid": "df6de9efbc6ae0a49a897128df812589",
+            "name": "char_489_serum_epoque#31",
+            "guid": "f0c9c9c590aacb745a2485709eec83ad",
             "atlas": 0,
             "rect": {
                 "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_464_cement_epoque#31",
+            "guid": "decbed4f92911c140a342fd5d035cd4e",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -27,8 +39,20 @@
             "guid": "bd76c08575b683a4d94055b573059adc",
             "atlas": 0,
             "rect": {
+                "x": 0,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_440_pinecn_epoque#31",
+            "guid": "f90311b9e6c08dc4690d5724122c9c02",
+            "atlas": 0,
+            "rect": {
                 "x": 182,
-                "y": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -39,8 +63,8 @@
             "guid": "34d6dd449c6405b4494a6edeba8791dc",
             "atlas": 0,
             "rect": {
-                "x": 0,
-                "y": 362,
+                "x": 364,
+                "y": 0,
                 "w": 180,
                 "h": 360
             },
@@ -51,7 +75,7 @@
             "guid": "ee8dbf2ef30bdcf40937b7b7fe615712",
             "atlas": 0,
             "rect": {
-                "x": 182,
+                "x": 364,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -63,7 +87,7 @@
             "guid": "39c9ac3a8000e984582c457d9df97221",
             "atlas": 0,
             "rect": {
-                "x": 364,
+                "x": 546,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -75,7 +99,7 @@
             "guid": "b68fb72726d8d544089498269d5029c5",
             "atlas": 0,
             "rect": {
-                "x": 364,
+                "x": 546,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -87,7 +111,7 @@
             "guid": "40335e4bf8394894598df8a651e85abf",
             "atlas": 0,
             "rect": {
-                "x": 546,
+                "x": 728,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -99,30 +123,6 @@
             "guid": "d9951821c61131040b76e9beadfe1cc0",
             "atlas": 0,
             "rect": {
-                "x": 546,
-                "y": 362,
-                "w": 180,
-                "h": 360
-            },
-            "rotate": 0
-        },
-        {
-            "name": "char_4082_qiubai_epoque#31",
-            "guid": "65f7ff86c76108d4194604d6f305076d",
-            "atlas": 0,
-            "rect": {
-                "x": 728,
-                "y": 0,
-                "w": 180,
-                "h": 360
-            },
-            "rotate": 0
-        },
-        {
-            "name": "char_4027_heyak_ambiencesynesthesia#4",
-            "guid": "ea2bfc2f35354b2479348a4343b12a85",
-            "atlas": 0,
-            "rect": {
                 "x": 728,
                 "y": 362,
                 "w": 180,
@@ -131,8 +131,8 @@
             "rotate": 0
         },
         {
-            "name": "char_172_svrash_ambiencesynesthesia#4",
-            "guid": "1fd5d7388958ac94687cfe7ea453f562",
+            "name": "char_4125_rdoc_rainbow6#2",
+            "guid": "a56097a2d78cc4f4b95f82b3685a75c1",
             "atlas": 0,
             "rect": {
                 "x": 0,
@@ -143,8 +143,8 @@
             "rotate": 1
         },
         {
-            "name": "char_1033_swire2_ambiencesynesthesia#4",
-            "guid": "bc6d99cfa6112794bb50c0d43f081da2",
+            "name": "char_4124_iana_rainbow6#2",
+            "guid": "970f56aff6cc70c4cbf2e405c8e71698",
             "atlas": 0,
             "rect": {
                 "x": 364,
@@ -171,14 +171,24 @@
     "_sign": {
         "m_sprites": [
             {
-                "name": "char_446_aroma_2",
-                "guid": "df6de9efbc6ae0a49a897128df812589",
-                "md5": "7dd767fe50b22d4e8ee981faa8b2a5f3"
+                "name": "char_489_serum_epoque#31",
+                "guid": "f0c9c9c590aacb745a2485709eec83ad",
+                "md5": "c73da9d2459aa0fb9a961c8e64f523f7"
+            },
+            {
+                "name": "char_464_cement_epoque#31",
+                "guid": "decbed4f92911c140a342fd5d035cd4e",
+                "md5": "d2d013544222b2ae2b89c356c2f11946"
             },
             {
                 "name": "char_446_aroma_1",
                 "guid": "bd76c08575b683a4d94055b573059adc",
                 "md5": "4c7c03b48a21057a2290a35cdd50354f"
+            },
+            {
+                "name": "char_440_pinecn_epoque#31",
+                "guid": "f90311b9e6c08dc4690d5724122c9c02",
+                "md5": "bb43313730d740803af478c631c5f26c"
             },
             {
                 "name": "char_4132_ascln_2",
@@ -211,38 +221,28 @@
                 "md5": "4e74e5af30b271c06c0e9e66d4ed6389"
             },
             {
-                "name": "char_4082_qiubai_epoque#31",
-                "guid": "65f7ff86c76108d4194604d6f305076d",
-                "md5": "320faec2f237849bc70e9269f8d2a7b5"
+                "name": "char_4125_rdoc_rainbow6#2",
+                "guid": "a56097a2d78cc4f4b95f82b3685a75c1",
+                "md5": "880f9722cef7b2d7f40b13a15b0227b2"
             },
             {
-                "name": "char_4027_heyak_ambiencesynesthesia#4",
-                "guid": "ea2bfc2f35354b2479348a4343b12a85",
-                "md5": "d57957317657ff497f22bb4f2a76a38b"
-            },
-            {
-                "name": "char_172_svrash_ambiencesynesthesia#4",
-                "guid": "1fd5d7388958ac94687cfe7ea453f562",
-                "md5": "71d586fed47653e947ff21f4d09089a3"
-            },
-            {
-                "name": "char_1033_swire2_ambiencesynesthesia#4",
-                "guid": "bc6d99cfa6112794bb50c0d43f081da2",
-                "md5": "d65ae33f7cc4c0995a5eaeed86f60300"
+                "name": "char_4124_iana_rainbow6#2",
+                "guid": "970f56aff6cc70c4cbf2e405c8e71698",
+                "md5": "5ada35b62886fedb1f8c1e9505166ed1"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#78",
                 "guid": "1d839596358822a469d5857886ddf958",
-                "md5": "58d13e06c45240917564aae4b1598399"
+                "md5": "f409c84c0dd22195f8d1382f211268d5"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#78a",
                 "guid": "ecc861616acde324f960649047339b9b",
-                "md5": "16d552df02fd728cd829690a5801f42d"
+                "md5": "87a17adeaa9640bf8ed5dde66abcbb2c"
             }
         ]
     }
