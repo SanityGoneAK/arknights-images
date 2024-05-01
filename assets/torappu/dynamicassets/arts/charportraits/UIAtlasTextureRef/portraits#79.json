@@ -11,8 +11,8 @@
     "m_Name": "portraits#79",
     "_sprites": [
         {
-            "name": "char_446_aroma_2",
-            "guid": "df6de9efbc6ae0a49a897128df812589",
+            "name": "char_4136_phonor_1",
+            "guid": "24ecbe140f61b4a4ebb4f1c968387144",
             "atlas": 0,
             "rect": {
                 "x": 0,
@@ -23,8 +23,8 @@
             "rotate": 0
         },
         {
-            "name": "char_4082_qiubai_epoque#31",
-            "guid": "65f7ff86c76108d4194604d6f305076d",
+            "name": "char_4134_cetsyr_2",
+            "guid": "8dbc9683d99cb7b46be81bae93a20af0",
             "atlas": 0,
             "rect": {
                 "x": 182,
@@ -35,8 +35,8 @@
             "rotate": 0
         },
         {
-            "name": "char_4027_heyak_ambiencesynesthesia#4",
-            "guid": "ea2bfc2f35354b2479348a4343b12a85",
+            "name": "char_4134_cetsyr_1",
+            "guid": "7b36f14f9ac1f5e4fb690d309b3b5153",
             "atlas": 0,
             "rect": {
                 "x": 0,
@@ -47,8 +47,8 @@
             "rotate": 0
         },
         {
-            "name": "char_172_svrash_ambiencesynesthesia#4",
-            "guid": "1fd5d7388958ac94687cfe7ea453f562",
+            "name": "char_4133_logos_2",
+            "guid": "0ca6e4ba2f155044d9f4d06b51cde0c6",
             "atlas": 0,
             "rect": {
                 "x": 182,
@@ -59,8 +59,8 @@
             "rotate": 0
         },
         {
-            "name": "char_1033_swire2_ambiencesynesthesia#4",
-            "guid": "bc6d99cfa6112794bb50c0d43f081da2",
+            "name": "char_4133_logos_1",
+            "guid": "d19bcdb148d1f1e4a997b7882167a119",
             "atlas": 0,
             "rect": {
                 "x": 364,
@@ -69,6 +69,78 @@
                 "h": 360
             },
             "rotate": 0
+        },
+        {
+            "name": "char_1037_amiya3_2",
+            "guid": "4b07d7875e3cc7043957791168cfc2be",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1036_fang2_2",
+            "guid": "eda57693b6e039f46a17ed919a3b850e",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1036_fang2_1",
+            "guid": "e57f4afd9c211d54ea015290ec46fb06",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1035_wisdel_2",
+            "guid": "0e6d97aad2ff5a04f9e513ca0956cefc",
+            "atlas": 0,
+            "rect": {
+                "x": 728,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1035_wisdel_1",
+            "guid": "839b15567a581cf48a0706e0b69b9d35",
+            "atlas": 0,
+            "rect": {
+                "x": 728,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1012_skadi2_iteration#2",
+            "guid": "048ce46293886a54dbeb90f473e5ede9",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -87,43 +159,73 @@
     "_sign": {
         "m_sprites": [
             {
-                "name": "char_446_aroma_2",
-                "guid": "df6de9efbc6ae0a49a897128df812589",
-                "md5": "7dd767fe50b22d4e8ee981faa8b2a5f3"
+                "name": "char_4136_phonor_1",
+                "guid": "24ecbe140f61b4a4ebb4f1c968387144",
+                "md5": "d7dd79689c90950cb4c4e33fd756d4f0"
             },
             {
-                "name": "char_4082_qiubai_epoque#31",
-                "guid": "65f7ff86c76108d4194604d6f305076d",
-                "md5": "320faec2f237849bc70e9269f8d2a7b5"
+                "name": "char_4134_cetsyr_2",
+                "guid": "8dbc9683d99cb7b46be81bae93a20af0",
+                "md5": "bcd580407b4c443ab8d33682bc958429"
             },
             {
-                "name": "char_4027_heyak_ambiencesynesthesia#4",
-                "guid": "ea2bfc2f35354b2479348a4343b12a85",
-                "md5": "e8cfea151d074185fc1278d605c833f6"
+                "name": "char_4134_cetsyr_1",
+                "guid": "7b36f14f9ac1f5e4fb690d309b3b5153",
+                "md5": "82045d4bd5335ab339ccdce7340f793c"
             },
             {
-                "name": "char_172_svrash_ambiencesynesthesia#4",
-                "guid": "1fd5d7388958ac94687cfe7ea453f562",
-                "md5": "71d586fed47653e947ff21f4d09089a3"
+                "name": "char_4133_logos_2",
+                "guid": "0ca6e4ba2f155044d9f4d06b51cde0c6",
+                "md5": "99b0adbad28227b32a27378ff36cec2b"
             },
             {
-                "name": "char_1033_swire2_ambiencesynesthesia#4",
-                "guid": "bc6d99cfa6112794bb50c0d43f081da2",
-                "md5": "d65ae33f7cc4c0995a5eaeed86f60300"
+                "name": "char_4133_logos_1",
+                "guid": "d19bcdb148d1f1e4a997b7882167a119",
+                "md5": "05b1de35918552d1dbf7fab5a66a464d"
+            },
+            {
+                "name": "char_1037_amiya3_2",
+                "guid": "4b07d7875e3cc7043957791168cfc2be",
+                "md5": "97d8342cbde7727cb723c183d9787037"
+            },
+            {
+                "name": "char_1036_fang2_2",
+                "guid": "eda57693b6e039f46a17ed919a3b850e",
+                "md5": "f3bde187ac7a61a343c729cbd292ebaa"
+            },
+            {
+                "name": "char_1036_fang2_1",
+                "guid": "e57f4afd9c211d54ea015290ec46fb06",
+                "md5": "bf261368105dd2329cc4784293bab20c"
+            },
+            {
+                "name": "char_1035_wisdel_2",
+                "guid": "0e6d97aad2ff5a04f9e513ca0956cefc",
+                "md5": "731bbeba33d9ac75af26f5142711cd66"
+            },
+            {
+                "name": "char_1035_wisdel_1",
+                "guid": "839b15567a581cf48a0706e0b69b9d35",
+                "md5": "640b3db091d37dc290d4e264a5197ff6"
+            },
+            {
+                "name": "char_1012_skadi2_iteration#2",
+                "guid": "048ce46293886a54dbeb90f473e5ede9",
+                "md5": "3c1c801967824c20f9a3b6b5f054c115"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#79",
                 "guid": "be3e12cda1d96ba4894c05dcddf35610",
-                "md5": "2a67f15838d8bf97d5acde7e7dd49165"
+                "md5": "c9fb31daeb47c139acd4a2b45cb716d6"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#79a",
                 "guid": "13b5dcab46ae2c441961948ca8bdb0fc",
-                "md5": "d8adc9aad4537afe903a4c26b50f816d"
+                "md5": "efad6cb8bf8888eeac4895f99f693556"
             }
         ]
     }
