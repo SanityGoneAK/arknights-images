@@ -83,8 +83,8 @@
             "rotate": 0
         },
         {
-            "name": "char_293_thorns_boc#8",
-            "guid": "7e7ccd7847ec9844585d7752758d3a5d",
+            "name": "char_376_therex_marthe#7",
+            "guid": "250098a9d62dd37458695b6451645623",
             "atlas": 0,
             "rect": {
                 "x": 546,
@@ -95,12 +95,24 @@
             "rotate": 0
         },
         {
-            "name": "char_249_mlyss_boc#8",
-            "guid": "f5ef63ecd8edab1448b195f2c4367e67",
+            "name": "char_293_thorns_boc#8",
+            "guid": "7e7ccd7847ec9844585d7752758d3a5d",
             "atlas": 0,
             "rect": {
                 "x": 546,
                 "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_249_mlyss_boc#8",
+            "guid": "f5ef63ecd8edab1448b195f2c4367e67",
+            "atlas": 0,
+            "rect": {
+                "x": 728,
+                "y": 0,
                 "w": 180,
                 "h": 360
             },
@@ -112,7 +124,7 @@
             "atlas": 0,
             "rect": {
                 "x": 728,
-                "y": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -123,12 +135,12 @@
             "guid": "ea2fe10545b154746ac58c8f01d54798",
             "atlas": 0,
             "rect": {
-                "x": 728,
-                "y": 362,
-                "w": 180,
-                "h": 360
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
             },
-            "rotate": 0
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -177,6 +189,11 @@
                 "md5": "66880760a8adc68811d65b419a1e9a81"
             },
             {
+                "name": "char_376_therex_marthe#7",
+                "guid": "250098a9d62dd37458695b6451645623",
+                "md5": "a759af61b2f9c196f8447995a6a387fb"
+            },
+            {
                 "name": "char_293_thorns_boc#8",
                 "guid": "7e7ccd7847ec9844585d7752758d3a5d",
                 "md5": "2d379f910e6359d8a100d0c95134b1f6"
@@ -201,14 +218,14 @@
             {
                 "name": "portraits#80",
                 "guid": "420ca33d18b829142b17998a186a60a8",
-                "md5": "52c0dfca8d89afe88acfe707d156f5a9"
+                "md5": "8626919433c4b870919a68a6e5e3621e"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#80a",
                 "guid": "2eab41070f22a6d44aa0428d041e7125",
-                "md5": "0187644f72f01a19e39285362a3c10ac"
+                "md5": "491039664b219d0b883fec6f10be2eea"
             }
         ]
     }
