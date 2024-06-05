@@ -1,0 +1,79 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -6831197485353024473
+    },
+    "m_Name": "portraits#82",
+    "_sprites": [
+        {
+            "name": "char_4082_qiubai_epoque#31",
+            "guid": "65f7ff86c76108d4194604d6f305076d",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4027_heyak_ambiencesynesthesia#4",
+            "guid": "ea2bfc2f35354b2479348a4343b12a85",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        }
+    ],
+    "_atlas": {
+        "index": 0,
+        "texture": {
+            "m_FileID": 0,
+            "m_PathID": 2771697861590635028
+        },
+        "alpha": {
+            "m_FileID": 0,
+            "m_PathID": 4929277022262629210
+        },
+        "size": 512
+    },
+    "_index": 82,
+    "_sign": {
+        "m_sprites": [
+            {
+                "name": "char_4082_qiubai_epoque#31",
+                "guid": "65f7ff86c76108d4194604d6f305076d",
+                "md5": "320faec2f237849bc70e9269f8d2a7b5"
+            },
+            {
+                "name": "char_4027_heyak_ambiencesynesthesia#4",
+                "guid": "ea2bfc2f35354b2479348a4343b12a85",
+                "md5": "e8cfea151d074185fc1278d605c833f6"
+            }
+        ],
+        "m_atlases": [
+            {
+                "name": "portraits#82",
+                "guid": "077a4c2d29ba42446a4c1ffe344aa527",
+                "md5": "2f68345fa35e0225892b64857a2cf5ed"
+            }
+        ],
+        "m_alphas": [
+            {
+                "name": "portraits#82a",
+                "guid": "9b793bfc0d48b974b8c6d4a2f1a1516a",
+                "md5": "867497f704f6bb4f34273eb38eecb253"
+            }
+        ]
+    }
+}
