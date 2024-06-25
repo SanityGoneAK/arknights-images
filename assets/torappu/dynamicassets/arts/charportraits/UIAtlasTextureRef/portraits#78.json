@@ -11,11 +11,23 @@
     "m_Name": "portraits#78",
     "_sprites": [
         {
+            "name": "char_498_inside_kitchen#2",
+            "guid": "0fc011ca151d4b542b0d23d346847a6d",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
             "name": "char_474_glady_epoque#33",
             "guid": "e13e50456a6aacf46bd8bb739384a166",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 182,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -27,8 +39,8 @@
             "guid": "df6de9efbc6ae0a49a897128df812589",
             "atlas": 0,
             "rect": {
-                "x": 182,
-                "y": 0,
+                "x": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -39,7 +51,7 @@
             "guid": "bd76c08575b683a4d94055b573059adc",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 182,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -51,8 +63,8 @@
             "guid": "34d6dd449c6405b4494a6edeba8791dc",
             "atlas": 0,
             "rect": {
-                "x": 182,
-                "y": 362,
+                "x": 364,
+                "y": 0,
                 "w": 180,
                 "h": 360
             },
@@ -64,7 +76,7 @@
             "atlas": 0,
             "rect": {
                 "x": 364,
-                "y": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -75,8 +87,8 @@
             "guid": "39c9ac3a8000e984582c457d9df97221",
             "atlas": 0,
             "rect": {
-                "x": 364,
-                "y": 362,
+                "x": 546,
+                "y": 0,
                 "w": 180,
                 "h": 360
             },
@@ -88,7 +100,7 @@
             "atlas": 0,
             "rect": {
                 "x": 546,
-                "y": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -99,8 +111,8 @@
             "guid": "40335e4bf8394894598df8a651e85abf",
             "atlas": 0,
             "rect": {
-                "x": 546,
-                "y": 362,
+                "x": 728,
+                "y": 0,
                 "w": 180,
                 "h": 360
             },
@@ -112,7 +124,7 @@
             "atlas": 0,
             "rect": {
                 "x": 728,
-                "y": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -123,19 +135,19 @@
             "guid": "1fd5d7388958ac94687cfe7ea453f562",
             "atlas": 0,
             "rect": {
-                "x": 728,
-                "y": 362,
-                "w": 180,
-                "h": 360
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
             },
-            "rotate": 0
+            "rotate": 1
         },
         {
             "name": "char_1033_swire2_ambiencesynesthesia#4",
             "guid": "bc6d99cfa6112794bb50c0d43f081da2",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 364,
                 "y": 724,
                 "w": 360,
                 "h": 180
@@ -158,6 +170,11 @@
     "_index": 78,
     "_sign": {
         "m_sprites": [
+            {
+                "name": "char_498_inside_kitchen#2",
+                "guid": "0fc011ca151d4b542b0d23d346847a6d",
+                "md5": "432231f7e5c8e878c716ea727dcda16b"
+            },
             {
                 "name": "char_474_glady_epoque#33",
                 "guid": "e13e50456a6aacf46bd8bb739384a166",
@@ -218,14 +235,14 @@
             {
                 "name": "portraits#78",
                 "guid": "1d839596358822a469d5857886ddf958",
-                "md5": "9eaeceb7b7bb35e61cb9d567c496e22d"
+                "md5": "8522c2c112c191c88466cf184226d994"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#78a",
                 "guid": "ecc861616acde324f960649047339b9b",
-                "md5": "fa12a3383768ffdf379d33f9510108d4"
+                "md5": "fb351f1ca34e280750e95c44490c0ef0"
             }
         ]
     }
