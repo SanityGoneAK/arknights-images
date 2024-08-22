@@ -59,11 +59,35 @@
             "rotate": 0
         },
         {
+            "name": "char_4106_bryota_epoque#34",
+            "guid": "99df0bd7f83584d489eea61e4da522cc",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4100_caper_summer#18",
+            "guid": "360f43982a000664d9a9680160612d04",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
             "name": "char_4088_hodrer_sightseer#1",
             "guid": "d04dce1aa026b174490ab13437573bdb",
             "atlas": 0,
             "rect": {
-                "x": 364,
+                "x": 546,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -75,7 +99,7 @@
             "guid": "f8e53d66f615f674fa5e174847aa9027",
             "atlas": 0,
             "rect": {
-                "x": 364,
+                "x": 546,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -87,7 +111,7 @@
             "guid": "b546e1bcced40bb4dba7ecbcb634ec1e",
             "atlas": 0,
             "rect": {
-                "x": 546,
+                "x": 728,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -99,7 +123,7 @@
             "guid": "f14b5ff105c59a042bc7e8b1134f6dad",
             "atlas": 0,
             "rect": {
-                "x": 546,
+                "x": 728,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -111,24 +135,24 @@
             "guid": "05de36745b4be114096c213241b39c54",
             "atlas": 0,
             "rect": {
-                "x": 728,
-                "y": 0,
-                "w": 180,
-                "h": 360
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
             },
-            "rotate": 0
+            "rotate": 1
         },
         {
             "name": "char_179_cgbird_sightseer#1",
             "guid": "748e6876d00498a42a5445cf9bc072e4",
             "atlas": 0,
             "rect": {
-                "x": 728,
-                "y": 362,
-                "w": 180,
-                "h": 360
+                "x": 364,
+                "y": 724,
+                "w": 360,
+                "h": 180
             },
-            "rotate": 0
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -167,6 +191,16 @@
                 "md5": "7d1465a9abc10fbc61d807c05b5e4d26"
             },
             {
+                "name": "char_4106_bryota_epoque#34",
+                "guid": "99df0bd7f83584d489eea61e4da522cc",
+                "md5": "3ae7332cae189e27a09f10bbaf87c88e"
+            },
+            {
+                "name": "char_4100_caper_summer#18",
+                "guid": "360f43982a000664d9a9680160612d04",
+                "md5": "ad3364bc5ea127cd58d2b975f0129456"
+            },
+            {
                 "name": "char_4088_hodrer_sightseer#1",
                 "guid": "d04dce1aa026b174490ab13437573bdb",
                 "md5": "d4e47ad9b777f4775bcaec9ba68005cb"
@@ -201,14 +235,14 @@
             {
                 "name": "portraits#83",
                 "guid": "313d1f751d4a096458793a65a650d10b",
-                "md5": "4f99774d255b283869df70cf9601e4f7"
+                "md5": "4c877e2684375383951a9e242f87a124"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#83a",
                 "guid": "d0d01aa4286d1344ba450d6bcb80ce36",
-                "md5": "407223da6e7329bc30a8fd1083a88942"
+                "md5": "e37cdc2bea73ca4bf645a9eff3003110"
             }
         ]
     }
