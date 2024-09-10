@@ -21,6 +21,18 @@
                 "h": 360
             },
             "rotate": 0
+        },
+        {
+            "name": "char_4083_chimes_yun#5",
+            "guid": "e71d18384159c114f9ac16eed9355f5e",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
         }
     ],
     "_atlas": {
@@ -42,20 +54,25 @@
                 "name": "char_4141_marcil_dungeon#1",
                 "guid": "e4aaaf951780b684abdd75f705ef902f",
                 "md5": "8d9d52a989a6ffb2c507a61e9952da45"
+            },
+            {
+                "name": "char_4083_chimes_yun#5",
+                "guid": "e71d18384159c114f9ac16eed9355f5e",
+                "md5": "fd35919ca8b0ba1ec7c6874c9858e738"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#85",
                 "guid": "d6533009485b56b4eb882da85ecfd5e5",
-                "md5": "8bdbbdf1a5fce6e83a15c08f1051703f"
+                "md5": "c8797182844b139de53eab01fce8ff04"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#85a",
                 "guid": "b63324ca24814724d936f96cfa5f2029",
-                "md5": "62b96bc522d2dd617c2329747238ecf1"
+                "md5": "71a728f001cd94f8a1925b778442c3ce"
             }
         ]
     }
