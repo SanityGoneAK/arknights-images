@@ -23,12 +23,24 @@
             "rotate": 0
         },
         {
-            "name": "char_4083_chimes_yun#5",
-            "guid": "e71d18384159c114f9ac16eed9355f5e",
+            "name": "char_4104_coldst_striker#3",
+            "guid": "4a551965146793c4e852eeb5c33419c3",
             "atlas": 0,
             "rect": {
                 "x": 182,
                 "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4083_chimes_yun#5",
+            "guid": "e71d18384159c114f9ac16eed9355f5e",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -45,7 +57,7 @@
             "m_FileID": 0,
             "m_PathID": -8996572979470042182
         },
-        "size": 512
+        "size": 1024
     },
     "_index": 85,
     "_sign": {
@@ -54,6 +66,11 @@
                 "name": "char_4141_marcil_dungeon#1",
                 "guid": "e4aaaf951780b684abdd75f705ef902f",
                 "md5": "8d9d52a989a6ffb2c507a61e9952da45"
+            },
+            {
+                "name": "char_4104_coldst_striker#3",
+                "guid": "4a551965146793c4e852eeb5c33419c3",
+                "md5": "2d9f27cd1d3d5166d63d6ef4ea32dea3"
             },
             {
                 "name": "char_4083_chimes_yun#5",
@@ -65,14 +82,14 @@
             {
                 "name": "portraits#85",
                 "guid": "d6533009485b56b4eb882da85ecfd5e5",
-                "md5": "c8797182844b139de53eab01fce8ff04"
+                "md5": "224d881561a2b51688266fdff4da902b"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#85a",
                 "guid": "b63324ca24814724d936f96cfa5f2029",
-                "md5": "71a728f001cd94f8a1925b778442c3ce"
+                "md5": "d92f8ee57956745851c2e0b14eda14fa"
             }
         ]
     }
