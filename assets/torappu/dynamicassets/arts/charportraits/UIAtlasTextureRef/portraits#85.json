@@ -11,11 +11,23 @@
     "m_Name": "portraits#85",
     "_sprites": [
         {
+            "name": "char_4151_tinman_sale#11",
+            "guid": "ccb700c1f34e2a045895d6f8d98dd55f",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
             "name": "char_4141_marcil_dungeon#1",
             "guid": "e4aaaf951780b684abdd75f705ef902f",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 182,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -27,8 +39,8 @@
             "guid": "4a551965146793c4e852eeb5c33419c3",
             "atlas": 0,
             "rect": {
-                "x": 182,
-                "y": 0,
+                "x": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -39,7 +51,7 @@
             "guid": "e71d18384159c114f9ac16eed9355f5e",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 182,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -63,6 +75,11 @@
     "_sign": {
         "m_sprites": [
             {
+                "name": "char_4151_tinman_sale#11",
+                "guid": "ccb700c1f34e2a045895d6f8d98dd55f",
+                "md5": "0f404fb6cf61cdad48cd8fbaf1d21f6b"
+            },
+            {
                 "name": "char_4141_marcil_dungeon#1",
                 "guid": "e4aaaf951780b684abdd75f705ef902f",
                 "md5": "8d9d52a989a6ffb2c507a61e9952da45"
@@ -82,14 +99,14 @@
             {
                 "name": "portraits#85",
                 "guid": "d6533009485b56b4eb882da85ecfd5e5",
-                "md5": "224d881561a2b51688266fdff4da902b"
+                "md5": "d7e4ad08cfba661926e6e9fb72fa1499"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#85a",
                 "guid": "b63324ca24814724d936f96cfa5f2029",
-                "md5": "d92f8ee57956745851c2e0b14eda14fa"
+                "md5": "75a50085b84f5c558223c88d798b60de"
             }
         ]
     }

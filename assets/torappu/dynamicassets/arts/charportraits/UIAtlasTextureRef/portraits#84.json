@@ -131,11 +131,23 @@
             "rotate": 0
         },
         {
+            "name": "char_240_wyvern_game#4",
+            "guid": "ef08941df99b050498c076927038de84",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
+        },
+        {
             "name": "char_1021_kroos2_game#3",
             "guid": "e3a118e3aeeb5034393cb4c6b35c75e4",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 364,
                 "y": 724,
                 "w": 360,
                 "h": 180
@@ -209,6 +221,11 @@
                 "md5": "f00bf0fdac7b32ca2d4f23a05c03c414"
             },
             {
+                "name": "char_240_wyvern_game#4",
+                "guid": "ef08941df99b050498c076927038de84",
+                "md5": "8168cfdb08a74eb0d4e136b4b3813fee"
+            },
+            {
                 "name": "char_1021_kroos2_game#3",
                 "guid": "e3a118e3aeeb5034393cb4c6b35c75e4",
                 "md5": "356f17c1eaef6a950ce4fd261712d33b"
@@ -218,14 +235,14 @@
             {
                 "name": "portraits#84",
                 "guid": "ed5069fbed68d884eab50f0bdaa898e1",
-                "md5": "b55bd713983f597efb91599d9fcd0f89"
+                "md5": "31b505a8bcaf8297d563eb466f831a0c"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#84a",
                 "guid": "f64c5b7d401bed84aa42a434205c854a",
-                "md5": "e3611c51c86460489e4351acfc3b5dd1"
+                "md5": "9f1738046fdf8bff7bf5ff0a0cf66b24"
             }
         ]
     }
