@@ -11,8 +11,8 @@
     "m_Name": "portraits#86",
     "_sprites": [
         {
-            "name": "char_4151_tinman_sale#11",
-            "guid": "ccb700c1f34e2a045895d6f8d98dd55f",
+            "name": "char_4165_ctrail_2",
+            "guid": "c680098604394914ea182ef293dabd71",
             "atlas": 0,
             "rect": {
                 "x": 0,
@@ -23,8 +23,8 @@
             "rotate": 0
         },
         {
-            "name": "char_4141_marcil_dungeon#1",
-            "guid": "e4aaaf951780b684abdd75f705ef902f",
+            "name": "char_4165_ctrail_1",
+            "guid": "7fce70063d188bb46966d01f228f9031",
             "atlas": 0,
             "rect": {
                 "x": 182,
@@ -33,6 +33,126 @@
                 "h": 360
             },
             "rotate": 0
+        },
+        {
+            "name": "char_4155_talr_2",
+            "guid": "4d4a809a05300144992c0cfce420d164",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4155_talr_1",
+            "guid": "fdc4bbfaa25165a4e8b354c330049d98",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4148_philae_2",
+            "guid": "1043baedb843156469f8cc709c2f4639",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4148_philae_1",
+            "guid": "e717493391daddf488f2ed72892180c9",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4026_vulpis_2",
+            "guid": "e05b121a7a7659e4e9fc5e4d11c1e24a",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4026_vulpis_1",
+            "guid": "e66e85dc00e07ac44881ccc2b1937786",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1502_crosly_2",
+            "guid": "3d17b5136b434744499b2a2138110b74",
+            "atlas": 0,
+            "rect": {
+                "x": 728,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1502_crosly_1",
+            "guid": "5ac1cb214a128c1428fb4140274838f4",
+            "atlas": 0,
+            "rect": {
+                "x": 728,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1038_whitw2_2",
+            "guid": "86658a4a7b08ae446a6855a1ff6156ec",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
+        },
+        {
+            "name": "char_1038_whitw2_1",
+            "guid": "68968ec7d7318f5468cd01195eeac9c8",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -45,34 +165,84 @@
             "m_FileID": 0,
             "m_PathID": -3778293162242875268
         },
-        "size": 512
+        "size": 1024
     },
     "_index": 86,
     "_sign": {
         "m_sprites": [
             {
-                "name": "char_4151_tinman_sale#11",
-                "guid": "ccb700c1f34e2a045895d6f8d98dd55f",
-                "md5": "0f404fb6cf61cdad48cd8fbaf1d21f6b"
+                "name": "char_4165_ctrail_2",
+                "guid": "c680098604394914ea182ef293dabd71",
+                "md5": "b566c722bca1cd53ec0c006f69babe99"
             },
             {
-                "name": "char_4141_marcil_dungeon#1",
-                "guid": "e4aaaf951780b684abdd75f705ef902f",
-                "md5": "8d9d52a989a6ffb2c507a61e9952da45"
+                "name": "char_4165_ctrail_1",
+                "guid": "7fce70063d188bb46966d01f228f9031",
+                "md5": "381acc5a8408d28326a1937cbcd8469a"
+            },
+            {
+                "name": "char_4155_talr_2",
+                "guid": "4d4a809a05300144992c0cfce420d164",
+                "md5": "e30caa4eb967188da730502a357becfd"
+            },
+            {
+                "name": "char_4155_talr_1",
+                "guid": "fdc4bbfaa25165a4e8b354c330049d98",
+                "md5": "8f93c91da63b7b48fdea18c03190c1c9"
+            },
+            {
+                "name": "char_4148_philae_2",
+                "guid": "1043baedb843156469f8cc709c2f4639",
+                "md5": "3f20ca682ed4904b22d12453a5d1ea3f"
+            },
+            {
+                "name": "char_4148_philae_1",
+                "guid": "e717493391daddf488f2ed72892180c9",
+                "md5": "4698b16c7e25cdf8f056efae83d11828"
+            },
+            {
+                "name": "char_4026_vulpis_2",
+                "guid": "e05b121a7a7659e4e9fc5e4d11c1e24a",
+                "md5": "00ec9c6d2a47157fc1ca3d44b3440aac"
+            },
+            {
+                "name": "char_4026_vulpis_1",
+                "guid": "e66e85dc00e07ac44881ccc2b1937786",
+                "md5": "f1462624ac681ddf6a300bd94b3dd5b6"
+            },
+            {
+                "name": "char_1502_crosly_2",
+                "guid": "3d17b5136b434744499b2a2138110b74",
+                "md5": "a9791a4bda93c536345204f7460a4f58"
+            },
+            {
+                "name": "char_1502_crosly_1",
+                "guid": "5ac1cb214a128c1428fb4140274838f4",
+                "md5": "bc3e10f24ac74c438a89524d5ec7806e"
+            },
+            {
+                "name": "char_1038_whitw2_2",
+                "guid": "86658a4a7b08ae446a6855a1ff6156ec",
+                "md5": "db0c1f1ece8315354ac880568780c1f8"
+            },
+            {
+                "name": "char_1038_whitw2_1",
+                "guid": "68968ec7d7318f5468cd01195eeac9c8",
+                "md5": "5ae860302f2761a3dc6a5c6d296ebf34"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#86",
                 "guid": "46e36adb166c5744abc1cb0bf3b4f255",
-                "md5": "cce41eb36c6f2c8ba3868b74a347fd3c"
+                "md5": "f2400e9e13203160746b2d2d9cf9019a"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#86a",
                 "guid": "625a9ce041783e340bc4f8994ff782dc",
-                "md5": "daabb45b633e084b63f4fc3a69ffe3bd"
+                "md5": "ba2ccd2ce35622389ca00ada5365a9ab"
             }
         ]
     }

@@ -1,0 +1,79 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -6831197485353024473
+    },
+    "m_Name": "portraits#87",
+    "_sprites": [
+        {
+            "name": "char_1032_excu2_sale#12",
+            "guid": "297d72d189a29ab40b2d7f2f0e5eb220",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1028_texas2_epoque#36",
+            "guid": "6eca4495a04bff64593fcabfa7042e37",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        }
+    ],
+    "_atlas": {
+        "index": 0,
+        "texture": {
+            "m_FileID": 0,
+            "m_PathID": 2184159023655950621
+        },
+        "alpha": {
+            "m_FileID": 0,
+            "m_PathID": 4129443328816938461
+        },
+        "size": 512
+    },
+    "_index": 87,
+    "_sign": {
+        "m_sprites": [
+            {
+                "name": "char_1032_excu2_sale#12",
+                "guid": "297d72d189a29ab40b2d7f2f0e5eb220",
+                "md5": "42b3b6cbf91794b3b15554440037a88b"
+            },
+            {
+                "name": "char_1028_texas2_epoque#36",
+                "guid": "6eca4495a04bff64593fcabfa7042e37",
+                "md5": "4c31f195abe1295b671271bef4d0511b"
+            }
+        ],
+        "m_atlases": [
+            {
+                "name": "portraits#87",
+                "guid": "ac567aef8ac06704d83a089b15f40630",
+                "md5": "d2db777deae0a9010870101b5b1ff2e1"
+            }
+        ],
+        "m_alphas": [
+            {
+                "name": "portraits#87a",
+                "guid": "6a901a84c3b5e3f46a8e1c4cc1df9a9b",
+                "md5": "9453ea8b683c06e4b48b789faf8bfc9a"
+            }
+        ]
+    }
+}
