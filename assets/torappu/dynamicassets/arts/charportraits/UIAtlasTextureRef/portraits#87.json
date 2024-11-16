@@ -11,11 +11,107 @@
     "m_Name": "portraits#87",
     "_sprites": [
         {
+            "name": "char_615_acspec_1",
+            "guid": "e0f1f965cde56c34f9f56af7dc0fa7f2",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_614_acsupo_1",
+            "guid": "cd9e2e168e8133447ace52dab8b269ab",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_613_acmedc_1",
+            "guid": "dd52702b0df9efd41a6c0572a3fa77d2",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_612_accast_1",
+            "guid": "04afd79072fae6f45825438d48a9c09b",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_611_acnipe_1",
+            "guid": "5db5c0e01cf34ba48a38ca398374fd47",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_610_acfend_1",
+            "guid": "9a8ba4e4d1c757946bd757fc2357a0e0",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_609_acguad_1",
+            "guid": "514a4691a28fb2943a49c736bd294e17",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_608_acpion_1",
+            "guid": "5a52b7f4192bb484d8ce33eec8264ee4",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
             "name": "char_1032_excu2_sale#12",
             "guid": "297d72d189a29ab40b2d7f2f0e5eb220",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 728,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -27,8 +123,8 @@
             "guid": "6eca4495a04bff64593fcabfa7042e37",
             "atlas": 0,
             "rect": {
-                "x": 182,
-                "y": 0,
+                "x": 728,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -45,11 +141,51 @@
             "m_FileID": 0,
             "m_PathID": 4129443328816938461
         },
-        "size": 512
+        "size": 1024
     },
     "_index": 87,
     "_sign": {
         "m_sprites": [
+            {
+                "name": "char_615_acspec_1",
+                "guid": "e0f1f965cde56c34f9f56af7dc0fa7f2",
+                "md5": "9a1ad5836bdd16631ab60c24bb3b57c5"
+            },
+            {
+                "name": "char_614_acsupo_1",
+                "guid": "cd9e2e168e8133447ace52dab8b269ab",
+                "md5": "81ec790b94fc9cfedccd9086c495f3e9"
+            },
+            {
+                "name": "char_613_acmedc_1",
+                "guid": "dd52702b0df9efd41a6c0572a3fa77d2",
+                "md5": "fc8c457dccf8b1744e6d28cd30210e24"
+            },
+            {
+                "name": "char_612_accast_1",
+                "guid": "04afd79072fae6f45825438d48a9c09b",
+                "md5": "4f1238fb62eae5cfcf82a62995bfc5a9"
+            },
+            {
+                "name": "char_611_acnipe_1",
+                "guid": "5db5c0e01cf34ba48a38ca398374fd47",
+                "md5": "11987fe2220b728f80560ce4478512bd"
+            },
+            {
+                "name": "char_610_acfend_1",
+                "guid": "9a8ba4e4d1c757946bd757fc2357a0e0",
+                "md5": "50969efbcefdaf687017e22b01d85304"
+            },
+            {
+                "name": "char_609_acguad_1",
+                "guid": "514a4691a28fb2943a49c736bd294e17",
+                "md5": "7bb747b979f4c0bc8798ec601b557ea7"
+            },
+            {
+                "name": "char_608_acpion_1",
+                "guid": "5a52b7f4192bb484d8ce33eec8264ee4",
+                "md5": "a6d9cb98bdf6bc152781972126660919"
+            },
             {
                 "name": "char_1032_excu2_sale#12",
                 "guid": "297d72d189a29ab40b2d7f2f0e5eb220",
@@ -65,14 +201,14 @@
             {
                 "name": "portraits#87",
                 "guid": "ac567aef8ac06704d83a089b15f40630",
-                "md5": "d2db777deae0a9010870101b5b1ff2e1"
+                "md5": "969a6b3a7fc95ed564d6fbbd3556af2c"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#87a",
                 "guid": "6a901a84c3b5e3f46a8e1c4cc1df9a9b",
-                "md5": "9453ea8b683c06e4b48b789faf8bfc9a"
+                "md5": "bff8db7e8660d4125e311eab97418282"
             }
         ]
     }
