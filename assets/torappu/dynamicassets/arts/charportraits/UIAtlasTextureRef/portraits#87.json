@@ -107,8 +107,8 @@
             "rotate": 0
         },
         {
-            "name": "char_1032_excu2_sale#12",
-            "guid": "297d72d189a29ab40b2d7f2f0e5eb220",
+            "name": "char_4011_lessng_whirlwind#7",
+            "guid": "5bf2fd28b1c0ca949ba0ebf913ba4f93",
             "atlas": 0,
             "rect": {
                 "x": 728,
@@ -119,8 +119,8 @@
             "rotate": 0
         },
         {
-            "name": "char_1028_texas2_epoque#36",
-            "guid": "6eca4495a04bff64593fcabfa7042e37",
+            "name": "char_311_mudrok_wild#10",
+            "guid": "b8d451eea02e6ae418e7f94e002703da",
             "atlas": 0,
             "rect": {
                 "x": 728,
@@ -129,6 +129,30 @@
                 "h": 360
             },
             "rotate": 0
+        },
+        {
+            "name": "char_1032_excu2_sale#12",
+            "guid": "297d72d189a29ab40b2d7f2f0e5eb220",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
+        },
+        {
+            "name": "char_1028_texas2_epoque#36",
+            "guid": "6eca4495a04bff64593fcabfa7042e37",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -187,6 +211,16 @@
                 "md5": "a6d9cb98bdf6bc152781972126660919"
             },
             {
+                "name": "char_4011_lessng_whirlwind#7",
+                "guid": "5bf2fd28b1c0ca949ba0ebf913ba4f93",
+                "md5": "4c2f832db5bad50d6eff6212c609dd66"
+            },
+            {
+                "name": "char_311_mudrok_wild#10",
+                "guid": "b8d451eea02e6ae418e7f94e002703da",
+                "md5": "fad50d344e16961a1f8aac10e7c3bc6a"
+            },
+            {
                 "name": "char_1032_excu2_sale#12",
                 "guid": "297d72d189a29ab40b2d7f2f0e5eb220",
                 "md5": "42b3b6cbf91794b3b15554440037a88b"
@@ -201,14 +235,14 @@
             {
                 "name": "portraits#87",
                 "guid": "ac567aef8ac06704d83a089b15f40630",
-                "md5": "969a6b3a7fc95ed564d6fbbd3556af2c"
+                "md5": "d905534b8a54866703930bf5ce2e82e5"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#87a",
                 "guid": "6a901a84c3b5e3f46a8e1c4cc1df9a9b",
-                "md5": "bff8db7e8660d4125e311eab97418282"
+                "md5": "728cbc92e19be965c0c6bba351996497"
             }
         ]
     }
