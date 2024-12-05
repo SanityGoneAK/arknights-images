@@ -1,0 +1,79 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -6831197485353024473
+    },
+    "m_Name": "portraits#90",
+    "_sprites": [
+        {
+            "name": "char_486_takila_shining#2",
+            "guid": "2bed1c86e3150e845aaac2af222a337b",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 350,
+                "h": 700
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4117_ray_shining#2",
+            "guid": "9e84935f49fa1714392ddda56729b177",
+            "atlas": 0,
+            "rect": {
+                "x": 352,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        }
+    ],
+    "_atlas": {
+        "index": 0,
+        "texture": {
+            "m_FileID": 0,
+            "m_PathID": -162328329351634093
+        },
+        "alpha": {
+            "m_FileID": 0,
+            "m_PathID": 1201137220303705389
+        },
+        "size": 1024
+    },
+    "_index": 90,
+    "_sign": {
+        "m_sprites": [
+            {
+                "name": "char_486_takila_shining#2",
+                "guid": "2bed1c86e3150e845aaac2af222a337b",
+                "md5": "498eefe40f81b9474530b3a7daedbd14"
+            },
+            {
+                "name": "char_4117_ray_shining#2",
+                "guid": "9e84935f49fa1714392ddda56729b177",
+                "md5": "9f1f6b106c4f69726f376fd26a6bfb6a"
+            }
+        ],
+        "m_atlases": [
+            {
+                "name": "portraits#90",
+                "guid": "7a53cb1c0a73de6438265ae7e029946a",
+                "md5": "92dd19d51240866aac6b1082e19ee12c"
+            }
+        ],
+        "m_alphas": [
+            {
+                "name": "portraits#90a",
+                "guid": "7b4ed7430e15b9948b7a18d1bbe576de",
+                "md5": "2fe83810897dd4f7cf8a0a48c7cdaefe"
+            }
+        ]
+    }
+}

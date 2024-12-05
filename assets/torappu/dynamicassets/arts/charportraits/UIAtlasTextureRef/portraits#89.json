@@ -11,11 +11,59 @@
     "m_Name": "portraits#89",
     "_sprites": [
         {
+            "name": "char_4164_tecno_2",
+            "guid": "95ae5b1699e2d3547b668788efbe5e43",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4164_tecno_1",
+            "guid": "14ea3d8cf52bfc84a9c974d7e0dc0baf",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4163_rosesa_2",
+            "guid": "b8c39c9b59eeefc4ca8f1f6873b28131",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4163_rosesa_1",
+            "guid": "b4db4bfd0ced5bb4dadf2b96d6a33d3d",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
             "name": "char_298_susuro_winter#4",
             "guid": "986ef93953f40c0458effa655e7b7e05",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 364,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -27,8 +75,32 @@
             "guid": "a4eab085a18ed494fb8b5e66559d0917",
             "atlas": 0,
             "rect": {
-                "x": 182,
+                "x": 364,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1039_thorn2_2",
+            "guid": "c077df1e8ae7fc14ba416847e3c0e31d",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
                 "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_1039_thorn2_1",
+            "guid": "b6c41a40c5cf19449b81139196d8da68",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -45,11 +117,31 @@
             "m_FileID": 0,
             "m_PathID": -3257588950045204806
         },
-        "size": 512
+        "size": 1024
     },
     "_index": 89,
     "_sign": {
         "m_sprites": [
+            {
+                "name": "char_4164_tecno_2",
+                "guid": "95ae5b1699e2d3547b668788efbe5e43",
+                "md5": "d230f0fb86d08dd12771b02a7341ac2b"
+            },
+            {
+                "name": "char_4164_tecno_1",
+                "guid": "14ea3d8cf52bfc84a9c974d7e0dc0baf",
+                "md5": "c8b4aa635fd3c182ce30833028300a3d"
+            },
+            {
+                "name": "char_4163_rosesa_2",
+                "guid": "b8c39c9b59eeefc4ca8f1f6873b28131",
+                "md5": "6d53c14a1b564d9d251854ad4c78f149"
+            },
+            {
+                "name": "char_4163_rosesa_1",
+                "guid": "b4db4bfd0ced5bb4dadf2b96d6a33d3d",
+                "md5": "00b36287ba9299de15e0157e8f253b71"
+            },
             {
                 "name": "char_298_susuro_winter#4",
                 "guid": "986ef93953f40c0458effa655e7b7e05",
@@ -59,20 +151,30 @@
                 "name": "char_245_cello_sale#12",
                 "guid": "a4eab085a18ed494fb8b5e66559d0917",
                 "md5": "5f146cb9684a99d8889f2ed16b1a7184"
+            },
+            {
+                "name": "char_1039_thorn2_2",
+                "guid": "c077df1e8ae7fc14ba416847e3c0e31d",
+                "md5": "6bff16520a9d46e4c983d275004cbeee"
+            },
+            {
+                "name": "char_1039_thorn2_1",
+                "guid": "b6c41a40c5cf19449b81139196d8da68",
+                "md5": "b652cd786329323b1771ee69e6916878"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#89",
                 "guid": "7b70023d2ad421c45815665fa3997b42",
-                "md5": "62c9f5515dae63627cb7e0746edf611d"
+                "md5": "6e15e244f92a007c5b729ae34106ec23"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#89a",
                 "guid": "da66bcaaf6bbb23428ab9977f777e9d9",
-                "md5": "c45006e883bd95ff744628092d02d32c"
+                "md5": "a1e362506a5039b6d2cd87c4b12e46f2"
             }
         ]
     }
