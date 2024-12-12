@@ -83,11 +83,35 @@
             "rotate": 0
         },
         {
+            "name": "char_2024_chyue_cfa#1",
+            "guid": "a157733a1151bba4695c9489a42bf484",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_2014_nian_cfa#1",
+            "guid": "c53e4c2b27c933a42a03c4245cac2abd",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
             "name": "char_1039_thorn2_2",
             "guid": "c077df1e8ae7fc14ba416847e3c0e31d",
             "atlas": 0,
             "rect": {
-                "x": 546,
+                "x": 728,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -99,12 +123,24 @@
             "guid": "b6c41a40c5cf19449b81139196d8da68",
             "atlas": 0,
             "rect": {
-                "x": 546,
+                "x": 728,
                 "y": 362,
                 "w": 180,
                 "h": 360
             },
             "rotate": 0
+        },
+        {
+            "name": "char_1034_jesca2_cfa#1",
+            "guid": "b69a660d2df1f264b9c69c5f936be552",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -153,6 +189,16 @@
                 "md5": "5f146cb9684a99d8889f2ed16b1a7184"
             },
             {
+                "name": "char_2024_chyue_cfa#1",
+                "guid": "a157733a1151bba4695c9489a42bf484",
+                "md5": "ad1ec438af788625a093eef002ab8577"
+            },
+            {
+                "name": "char_2014_nian_cfa#1",
+                "guid": "c53e4c2b27c933a42a03c4245cac2abd",
+                "md5": "d7f8b3de085a014b82611d7e4bb646e0"
+            },
+            {
                 "name": "char_1039_thorn2_2",
                 "guid": "c077df1e8ae7fc14ba416847e3c0e31d",
                 "md5": "6bff16520a9d46e4c983d275004cbeee"
@@ -161,20 +207,25 @@
                 "name": "char_1039_thorn2_1",
                 "guid": "b6c41a40c5cf19449b81139196d8da68",
                 "md5": "b652cd786329323b1771ee69e6916878"
+            },
+            {
+                "name": "char_1034_jesca2_cfa#1",
+                "guid": "b69a660d2df1f264b9c69c5f936be552",
+                "md5": "2acbda499978a9174ca23e507e06f61a"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#89",
                 "guid": "7b70023d2ad421c45815665fa3997b42",
-                "md5": "6e15e244f92a007c5b729ae34106ec23"
+                "md5": "4804c8157b6642f416dc5ae012c932a9"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#89a",
                 "guid": "da66bcaaf6bbb23428ab9977f777e9d9",
-                "md5": "a1e362506a5039b6d2cd87c4b12e46f2"
+                "md5": "9fff760ae39997b21b43d539c57dbf8c"
             }
         ]
     }
