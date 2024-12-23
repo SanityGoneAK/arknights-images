@@ -131,11 +131,23 @@
             "rotate": 0
         },
         {
+            "name": "char_1037_amiya3_sale#13",
+            "guid": "fe9e54bcafaf4704c8e270f07541b4b7",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
+        },
+        {
             "name": "char_1034_jesca2_cfa#1",
             "guid": "b69a660d2df1f264b9c69c5f936be552",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 364,
                 "y": 724,
                 "w": 360,
                 "h": 180
@@ -209,6 +221,11 @@
                 "md5": "b652cd786329323b1771ee69e6916878"
             },
             {
+                "name": "char_1037_amiya3_sale#13",
+                "guid": "fe9e54bcafaf4704c8e270f07541b4b7",
+                "md5": "a7951196b3438265183286bce0791a26"
+            },
+            {
                 "name": "char_1034_jesca2_cfa#1",
                 "guid": "b69a660d2df1f264b9c69c5f936be552",
                 "md5": "2acbda499978a9174ca23e507e06f61a"
@@ -218,14 +235,14 @@
             {
                 "name": "portraits#89",
                 "guid": "7b70023d2ad421c45815665fa3997b42",
-                "md5": "4804c8157b6642f416dc5ae012c932a9"
+                "md5": "533ac5a9a6d6ee61b2a4a299751ab431"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#89a",
                 "guid": "da66bcaaf6bbb23428ab9977f777e9d9",
-                "md5": "9fff760ae39997b21b43d539c57dbf8c"
+                "md5": "8879322333e1ccd727f80d942620327b"
             }
         ]
     }
