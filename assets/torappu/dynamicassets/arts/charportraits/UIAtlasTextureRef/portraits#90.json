@@ -45,6 +45,18 @@
                 "h": 360
             },
             "rotate": 0
+        },
+        {
+            "name": "char_301_cutter_marthe#8",
+            "guid": "d6a648d94f261ed418ab168358d29660",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
         }
     ],
     "_atlas": {
@@ -76,20 +88,25 @@
                 "name": "char_4114_harold_snow#7",
                 "guid": "877e7344161c08f4b8a5f0273976a778",
                 "md5": "ae0cf5240405c13e76d9779f758337c4"
+            },
+            {
+                "name": "char_301_cutter_marthe#8",
+                "guid": "d6a648d94f261ed418ab168358d29660",
+                "md5": "9154e30757b37967d4b226e2f20a9748"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#90",
                 "guid": "7a53cb1c0a73de6438265ae7e029946a",
-                "md5": "803e49fb8b6ad30b624d0776156519fc"
+                "md5": "6e3b5b526b9df921c069a2f2338af9b8"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#90a",
                 "guid": "7b4ed7430e15b9948b7a18d1bbe576de",
-                "md5": "7ab4651658de471875692043e1131810"
+                "md5": "7655334b392fd6df177f591afca06d07"
             }
         ]
     }
