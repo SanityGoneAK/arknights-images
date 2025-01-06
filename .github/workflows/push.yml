@@ -17,6 +17,7 @@ jobs:
 
       - name: Convert Poetry lockfile
         run: |
+          poetry self add poetry-plugin-export
           poetry export -f requirements.txt -o requirements.txt --without-hashes
 
       - name: Set up Python
