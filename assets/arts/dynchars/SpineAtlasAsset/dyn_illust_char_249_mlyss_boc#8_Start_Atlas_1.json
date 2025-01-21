@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_249_mlyss_boc#8_Start_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 827029346254148267
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -8547167417092010279
+        }
+    ]
+}

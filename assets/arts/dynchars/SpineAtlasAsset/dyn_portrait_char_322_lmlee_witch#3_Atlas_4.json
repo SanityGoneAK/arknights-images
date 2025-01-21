@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_portrait_char_322_lmlee_witch#3_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": -1564372933089244884
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 7816342305918014589
+        }
+    ]
+}

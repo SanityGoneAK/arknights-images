@@ -1,0 +1,52 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8302033850027404168
+    },
+    "m_Name": "dyn_illust_char_1016_agoat2_epoque#34_SkeletonData",
+    "atlasAssets": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 7038591515666164959
+        }
+    ],
+    "scale": 0.009999999776482582,
+    "skeletonJSON": {
+        "m_FileID": 0,
+        "m_PathID": 8361088689788299689
+    },
+    "isUpgradingBlendModeMaterials": 1,
+    "blendModeMaterials": {
+        "requiresBlendModeMaterials": 1,
+        "applyAdditiveMaterial": 1,
+        "additiveMaterials": [],
+        "multiplyMaterials": [],
+        "screenMaterials": []
+    },
+    "skeletonDataModifiers": [],
+    "fromAnimation": [
+        "Idle",
+        "Idle",
+        "Special"
+    ],
+    "toAnimation": [
+        "Interact",
+        "Special",
+        "Interact"
+    ],
+    "duration": [
+        0.5,
+        0.5,
+        0.5
+    ],
+    "defaultMix": 0.0,
+    "controller": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    }
+}

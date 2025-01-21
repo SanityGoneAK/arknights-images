@@ -97,7 +97,12 @@ def export(obj: Object, target_path: Path) -> None:
                     write_binary_object(data, target_path)
                 except:
                     try:
-                        write_object(json.loads(data), target_path)
+                        if "dyn_illust_char_4058_pepe" in target_path.as_posix():
+                            if ".atlas" not in target_path.as_posix():
+                                target_path = target_path.with_name(target_path.name + ".skel")
+                            write_bytes(data, target_path)
+                        else:
+                            write_object(json.loads(data), target_path)
                     except:
                         write_bytes(data, target_path)
 

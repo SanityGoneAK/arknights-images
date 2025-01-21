@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_1012_skadi2_iteration#2_Start_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 1976306566181643275
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -1740253819968601191
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_4055_bgsnow_wild#7_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 3708912564015282483
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 2090621857834252804
+        }
+    ]
+}
