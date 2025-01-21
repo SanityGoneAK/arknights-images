@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_113_cqbw_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 8884026367749667725
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 54788299150191925
+        }
+    ]
+}

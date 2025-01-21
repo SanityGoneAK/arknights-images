@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_1037_amiya3_sale#13_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 3885551157897894714
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 7324914765770672805
+        }
+    ]
+}

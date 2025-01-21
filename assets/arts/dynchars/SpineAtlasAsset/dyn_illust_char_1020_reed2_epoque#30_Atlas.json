@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_1020_reed2_epoque#30_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 2042823836091278013
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -4167780137455339095
+        }
+    ]
+}

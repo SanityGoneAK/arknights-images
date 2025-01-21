@@ -1,0 +1,29 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -3421993469529270822
+    },
+    "m_Name": "HGMobileBlur",
+    "active": 1,
+    "enabled": {
+        "overrideState": 1,
+        "value": 1
+    },
+    "blurDegree": {
+        "overrideState": 1,
+        "value": 1.0
+    },
+    "resMode": {
+        "overrideState": 1,
+        "value": 1
+    },
+    "blurSpread": {
+        "overrideState": 1,
+        "value": 1.2999999523162842
+    }
+}
