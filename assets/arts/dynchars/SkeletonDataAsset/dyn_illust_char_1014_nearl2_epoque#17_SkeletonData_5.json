@@ -1,0 +1,58 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8302033850027404168
+    },
+    "m_Name": "dyn_illust_char_1014_nearl2_epoque#17_SkeletonData",
+    "atlasAssets": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -5478833210194731174
+        }
+    ],
+    "scale": 0.009999999776482582,
+    "skeletonJSON": {
+        "m_FileID": 0,
+        "m_PathID": -6595874425750021421
+    },
+    "isUpgradingBlendModeMaterials": 0,
+    "blendModeMaterials": {
+        "requiresBlendModeMaterials": 0,
+        "applyAdditiveMaterial": 1,
+        "additiveMaterials": [],
+        "multiplyMaterials": [],
+        "screenMaterials": []
+    },
+    "skeletonDataModifiers": [],
+    "fromAnimation": [
+        "Idle",
+        "Idle",
+        "Special",
+        "Special",
+        "Interact"
+    ],
+    "toAnimation": [
+        "Interact",
+        "Special",
+        "Interact",
+        "Idle",
+        "Idle"
+    ],
+    "duration": [
+        0.5,
+        0.800000011920929,
+        0.5,
+        1.0,
+        0.800000011920929
+    ],
+    "defaultMix": 0.0,
+    "controller": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    }
+}

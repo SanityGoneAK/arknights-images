@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_472_pasngr_epoque#17_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": -352618404959051799
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 1235137898349901758
+        }
+    ]
+}
