@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_1032_excu2_sale#12_Start_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 4934265122278142459
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 1415254981635584720
+        }
+    ]
+}

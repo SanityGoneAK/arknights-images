@@ -1,0 +1,176 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -610103151655255854
+    },
+    "m_Name": "PostProcessResources",
+    "blueNoise64": [],
+    "blueNoise256": [],
+    "smaaLuts": {
+        "area": {
+            "m_FileID": 0,
+            "m_PathID": 4034367648152015234
+        },
+        "search": {
+            "m_FileID": 0,
+            "m_PathID": 7370602297995014801
+        }
+    },
+    "shaders": {
+        "bloom": {
+            "m_FileID": 0,
+            "m_PathID": 8988913726339783424
+        },
+        "copy": {
+            "m_FileID": 0,
+            "m_PathID": -4973038200040909824
+        },
+        "copyStd": {
+            "m_FileID": 0,
+            "m_PathID": 298710939669815259
+        },
+        "copyStdFromTexArray": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "copyStdFromDoubleWide": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "discardAlpha": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "depthOfField": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "finalPass": {
+            "m_FileID": 0,
+            "m_PathID": -5858001442653136649
+        },
+        "grainBaker": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "motionBlur": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "temporalAntialiasing": {
+            "m_FileID": 0,
+            "m_PathID": 5405191335456954674
+        },
+        "subpixelMorphologicalAntialiasing": {
+            "m_FileID": 0,
+            "m_PathID": 3423760132543892835
+        },
+        "texture2dLerp": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "uber": {
+            "m_FileID": 0,
+            "m_PathID": -8743461278535665275
+        },
+        "lut2DBaker": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "lightMeter": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "gammaHistogram": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "waveform": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "vectorscope": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "debugOverlays": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "deferredFog": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "scalableAO": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "multiScaleAO": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "screenSpaceReflections": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "mobileBlur": {
+            "m_FileID": 0,
+            "m_PathID": 5645140612877651943
+        }
+    },
+    "computeShaders": {
+        "autoExposure": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "exposureHistogram": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "lut3DBaker": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "texture3dLerp": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "gammaHistogram": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "waveform": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "vectorscope": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "multiScaleAODownsample1": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "multiScaleAODownsample2": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "multiScaleAORender": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "multiScaleAOUpsample": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "gaussianDownsample": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        }
+    }
+}

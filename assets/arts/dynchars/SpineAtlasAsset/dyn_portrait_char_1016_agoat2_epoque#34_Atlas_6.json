@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_portrait_char_1016_agoat2_epoque#34_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 9210832556533469836
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 9106130848620296038
+        }
+    ]
+}
