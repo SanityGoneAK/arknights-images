@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_portrait_char_2024_chyue_cfa#1_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": -6962264837012158511
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -8450068712463260624
+        }
+    ]
+}
