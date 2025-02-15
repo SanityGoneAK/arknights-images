@@ -11,12 +11,36 @@
     "m_Name": "portraits#90",
     "_sprites": [
         {
+            "name": "char_4173_nowell_2",
+            "guid": "afe7712dca050ae4da42a42a3eb8ede4",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4173_nowell_1",
+            "guid": "eb071fb22e8b0994c8bc7c2b1836cbd6",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
             "name": "char_4172_xingzh_2",
             "guid": "082b0557547855a49af1cddb52a2f32d",
             "atlas": 0,
             "rect": {
                 "x": 0,
-                "y": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -28,7 +52,7 @@
             "atlas": 0,
             "rect": {
                 "x": 182,
-                "y": 0,
+                "y": 362,
                 "w": 180,
                 "h": 360
             },
@@ -39,8 +63,8 @@
             "guid": "ea5ae17655edf1d45b51e17f12a409e8",
             "atlas": 0,
             "rect": {
-                "x": 0,
-                "y": 362,
+                "x": 364,
+                "y": 0,
                 "w": 180,
                 "h": 360
             },
@@ -51,7 +75,31 @@
             "guid": "c3256ffcbf81c41468816487f0fe4f13",
             "atlas": 0,
             "rect": {
-                "x": 182,
+                "x": 364,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4010_etlchi_2",
+            "guid": "a447d69c8031ab947971eda03d5057b1",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4010_etlchi_1",
+            "guid": "3859cba229b15dd4580a151accffaa7a",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -63,7 +111,7 @@
             "guid": "29488f83569c3ba4a8d752369d773760",
             "atlas": 0,
             "rect": {
-                "x": 364,
+                "x": 728,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -75,7 +123,7 @@
             "guid": "89600b943f85ab841b2cf175b4821d32",
             "atlas": 0,
             "rect": {
-                "x": 364,
+                "x": 728,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -87,24 +135,24 @@
             "guid": "ebec34ef56cc5024591ed8b81ce1e478",
             "atlas": 0,
             "rect": {
-                "x": 546,
-                "y": 0,
-                "w": 180,
-                "h": 360
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
             },
-            "rotate": 0
+            "rotate": 1
         },
         {
             "name": "char_1040_blaze2_1",
             "guid": "c1a8e2bb56c52224d845adf0836fa945",
             "atlas": 0,
             "rect": {
-                "x": 546,
-                "y": 362,
-                "w": 180,
-                "h": 360
+                "x": 364,
+                "y": 724,
+                "w": 360,
+                "h": 180
             },
-            "rotate": 0
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -122,6 +170,16 @@
     "_index": 90,
     "_sign": {
         "m_sprites": [
+            {
+                "name": "char_4173_nowell_2",
+                "guid": "afe7712dca050ae4da42a42a3eb8ede4",
+                "md5": "02709618ad690725ed15dd077e27cecc"
+            },
+            {
+                "name": "char_4173_nowell_1",
+                "guid": "eb071fb22e8b0994c8bc7c2b1836cbd6",
+                "md5": "6a8ab25f19785537dc46e35b9a48c6fb"
+            },
             {
                 "name": "char_4172_xingzh_2",
                 "guid": "082b0557547855a49af1cddb52a2f32d",
@@ -141,6 +199,16 @@
                 "name": "char_4052_surfer_1",
                 "guid": "c3256ffcbf81c41468816487f0fe4f13",
                 "md5": "ac32e32ca164ef65f62bac9440d6aa59"
+            },
+            {
+                "name": "char_4010_etlchi_2",
+                "guid": "a447d69c8031ab947971eda03d5057b1",
+                "md5": "479ef0e256fe9275fb6ecda52acb819b"
+            },
+            {
+                "name": "char_4010_etlchi_1",
+                "guid": "3859cba229b15dd4580a151accffaa7a",
+                "md5": "813873a355637c11dee71788fcd98b49"
             },
             {
                 "name": "char_2026_yu_2",
@@ -167,14 +235,14 @@
             {
                 "name": "portraits#90",
                 "guid": "7a53cb1c0a73de6438265ae7e029946a",
-                "md5": "ec5fab4fb47521264a25d46085f2b4b0"
+                "md5": "3f931b0d8e16b1f039ab180bb0424fcb"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#90a",
                 "guid": "7b4ed7430e15b9948b7a18d1bbe576de",
-                "md5": "7f16f4c8c9b716c9894dd4e1f5bd67e8"
+                "md5": "84917571424ad28a9dac9edbbdfdcc34"
             }
         ]
     }
