@@ -1,0 +1,52 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8302033850027404168
+    },
+    "m_Name": "dyn_illust_char_2026_yu_SkeletonData",
+    "atlasAssets": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -3881352075836423466
+        }
+    ],
+    "scale": 0.009999999776482582,
+    "skeletonJSON": {
+        "m_FileID": 0,
+        "m_PathID": -6349724517594213904
+    },
+    "isUpgradingBlendModeMaterials": 0,
+    "blendModeMaterials": {
+        "requiresBlendModeMaterials": 0,
+        "applyAdditiveMaterial": 1,
+        "additiveMaterials": [],
+        "multiplyMaterials": [],
+        "screenMaterials": []
+    },
+    "skeletonDataModifiers": [],
+    "fromAnimation": [
+        "Idle",
+        "Idle",
+        "Special"
+    ],
+    "toAnimation": [
+        "Interact",
+        "Special",
+        "Interact"
+    ],
+    "duration": [
+        0.5,
+        0.5,
+        0.2199999988079071
+    ],
+    "defaultMix": 0.0,
+    "controller": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    }
+}

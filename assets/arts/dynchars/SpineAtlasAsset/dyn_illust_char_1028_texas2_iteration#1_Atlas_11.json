@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_1028_texas2_iteration#1_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": -3620068192406257333
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 7363091326938543965
+        }
+    ]
+}
