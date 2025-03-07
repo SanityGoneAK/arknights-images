@@ -11,8 +11,8 @@
     "m_Name": "portraits#92",
     "_sprites": [
         {
-            "name": "char_486_takila_shining#2",
-            "guid": "2bed1c86e3150e845aaac2af222a337b",
+            "name": "char_450_necras_2",
+            "guid": "2eff08701b13bb245b94eacb745a30d5",
             "atlas": 0,
             "rect": {
                 "x": 0,
@@ -23,11 +23,71 @@
             "rotate": 0
         },
         {
-            "name": "char_4121_zuole_nian#11",
-            "guid": "d32bdd69d58aefc4d8b7291ee4691db9",
+            "name": "char_450_necras_1",
+            "guid": "203b912d75583fe4685fa6cf3157a0fa",
             "atlas": 0,
             "rect": {
                 "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4177_brigid_2",
+            "guid": "a86554bf3c55c5145a591d46f90555ec",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4177_brigid_1",
+            "guid": "9c5d78858bab74c44bdfa5c5bede56b0",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4171_wulfen_2",
+            "guid": "8b993e197f734674ca161c267c64bd60",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4171_wulfen_1",
+            "guid": "38dc2bf978647bf48a85c13496d288c9",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4146_nymph_epoque#42",
+            "guid": "3c2e841fb8beaee4593cd986703421a5",
+            "atlas": 0,
+            "rect": {
+                "x": 546,
                 "y": 0,
                 "w": 180,
                 "h": 360
@@ -39,7 +99,7 @@
             "guid": "5231cc81a32808d4fb2f66dc22cf17fa",
             "atlas": 0,
             "rect": {
-                "x": 0,
+                "x": 546,
                 "y": 362,
                 "w": 180,
                 "h": 360
@@ -47,16 +107,40 @@
             "rotate": 0
         },
         {
-            "name": "char_4117_ray_shining#2",
-            "guid": "9e84935f49fa1714392ddda56729b177",
+            "name": "char_4102_threye_epoque#42",
+            "guid": "403419e96c364b6498d122b8772d8c8d",
             "atlas": 0,
             "rect": {
-                "x": 182,
+                "x": 728,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_379_sesa_game#5",
+            "guid": "97574b8f453b9a941ae5454dab2bfcbd",
+            "atlas": 0,
+            "rect": {
+                "x": 728,
                 "y": 362,
                 "w": 180,
                 "h": 360
             },
             "rotate": 0
+        },
+        {
+            "name": "char_260_durnar_epoque#42",
+            "guid": "3deb399cc66c3ef4d86575b8855c2661",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -75,14 +159,39 @@
     "_sign": {
         "m_sprites": [
             {
-                "name": "char_486_takila_shining#2",
-                "guid": "2bed1c86e3150e845aaac2af222a337b",
-                "md5": "b95bf3a6f9cf54013ecd6ebfdb20f300"
+                "name": "char_450_necras_2",
+                "guid": "2eff08701b13bb245b94eacb745a30d5",
+                "md5": "d2cb90d23b8532d82eda08f6a69c1029"
             },
             {
-                "name": "char_4121_zuole_nian#11",
-                "guid": "d32bdd69d58aefc4d8b7291ee4691db9",
-                "md5": "6822bc867f0382dbba506866b62f039d"
+                "name": "char_450_necras_1",
+                "guid": "203b912d75583fe4685fa6cf3157a0fa",
+                "md5": "d90aea3f45b1e24a3011391aa01efbac"
+            },
+            {
+                "name": "char_4177_brigid_2",
+                "guid": "a86554bf3c55c5145a591d46f90555ec",
+                "md5": "c2af08aeeb11587b851b304818bf26fa"
+            },
+            {
+                "name": "char_4177_brigid_1",
+                "guid": "9c5d78858bab74c44bdfa5c5bede56b0",
+                "md5": "635a60d312fe3ff5c34c499612796522"
+            },
+            {
+                "name": "char_4171_wulfen_2",
+                "guid": "8b993e197f734674ca161c267c64bd60",
+                "md5": "639d9390b982ab87818f622b4ef3faa9"
+            },
+            {
+                "name": "char_4171_wulfen_1",
+                "guid": "38dc2bf978647bf48a85c13496d288c9",
+                "md5": "530d263c85dc53a08d6915e8671126da"
+            },
+            {
+                "name": "char_4146_nymph_epoque#42",
+                "guid": "3c2e841fb8beaee4593cd986703421a5",
+                "md5": "7543dc16fe9c3446ae66f4dd272f9911"
             },
             {
                 "name": "char_4119_wanqin_epoque#41",
@@ -90,23 +199,33 @@
                 "md5": "4a2d5e0914aaaaaab869b266d919dede"
             },
             {
-                "name": "char_4117_ray_shining#2",
-                "guid": "9e84935f49fa1714392ddda56729b177",
-                "md5": "9f1f6b106c4f69726f376fd26a6bfb6a"
+                "name": "char_4102_threye_epoque#42",
+                "guid": "403419e96c364b6498d122b8772d8c8d",
+                "md5": "d036be1894cae45d4b331fd2a2cc62fb"
+            },
+            {
+                "name": "char_379_sesa_game#5",
+                "guid": "97574b8f453b9a941ae5454dab2bfcbd",
+                "md5": "fd44e44a1110f529550090187faea97a"
+            },
+            {
+                "name": "char_260_durnar_epoque#42",
+                "guid": "3deb399cc66c3ef4d86575b8855c2661",
+                "md5": "99b567e4cd0bf110ac045e8ee2259992"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#92",
                 "guid": "a216bc807c983b4409c22f618643f3c5",
-                "md5": "e22c28012d6943e928bf2dfbc19d01b8"
+                "md5": "9b4b15640a6f5cd6675b9b211b3d5d27"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#92a",
                 "guid": "ae7bd8d70daa9bb4ea2b39bd8a41cb1e",
-                "md5": "6a7949f679bfbd23715e2f97369ee8fd"
+                "md5": "bb6f829057447e38e6d3b8e4ba7c1a29"
             }
         ]
     }

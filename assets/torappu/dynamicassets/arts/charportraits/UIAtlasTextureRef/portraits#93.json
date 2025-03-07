@@ -1,0 +1,96 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -6831197485353024473
+    },
+    "m_Name": "portraits#93",
+    "_sprites": [
+        {
+            "name": "char_486_takila_shining#2",
+            "guid": "2bed1c86e3150e845aaac2af222a337b",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4121_zuole_nian#11",
+            "guid": "d32bdd69d58aefc4d8b7291ee4691db9",
+            "atlas": 0,
+            "rect": {
+                "x": 182,
+                "y": 0,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        },
+        {
+            "name": "char_4117_ray_shining#2",
+            "guid": "9e84935f49fa1714392ddda56729b177",
+            "atlas": 0,
+            "rect": {
+                "x": 0,
+                "y": 362,
+                "w": 180,
+                "h": 360
+            },
+            "rotate": 0
+        }
+    ],
+    "_atlas": {
+        "index": 0,
+        "texture": {
+            "m_FileID": 0,
+            "m_PathID": -496789198024469548
+        },
+        "alpha": {
+            "m_FileID": 0,
+            "m_PathID": -242233593366884348
+        },
+        "size": 1024
+    },
+    "_index": 93,
+    "_sign": {
+        "m_sprites": [
+            {
+                "name": "char_486_takila_shining#2",
+                "guid": "2bed1c86e3150e845aaac2af222a337b",
+                "md5": "b95bf3a6f9cf54013ecd6ebfdb20f300"
+            },
+            {
+                "name": "char_4121_zuole_nian#11",
+                "guid": "d32bdd69d58aefc4d8b7291ee4691db9",
+                "md5": "6822bc867f0382dbba506866b62f039d"
+            },
+            {
+                "name": "char_4117_ray_shining#2",
+                "guid": "9e84935f49fa1714392ddda56729b177",
+                "md5": "9f1f6b106c4f69726f376fd26a6bfb6a"
+            }
+        ],
+        "m_atlases": [
+            {
+                "name": "portraits#93",
+                "guid": "b7afe7c0706725d4dabb1c11f24558ec",
+                "md5": "9b4a558dfdb7006243555f1f13c3b628"
+            }
+        ],
+        "m_alphas": [
+            {
+                "name": "portraits#93a",
+                "guid": "682119086be607745bb5f257e633a580",
+                "md5": "e43df4cdb45b45df791624d2f924ed79"
+            }
+        ]
+    }
+}
