@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_1028_texas2_epoque#36_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 4657278692510391098
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 4512977494286235922
+        }
+    ]
+}
