@@ -1,0 +1,26 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_250_phatom_sale#4_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": -4284234012934968927
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 368825060949145159
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6277667508008593197
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_illust_char_1014_nearl2_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 6241849617766834761
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 8217058017360443757
+        }
+    ]
+}

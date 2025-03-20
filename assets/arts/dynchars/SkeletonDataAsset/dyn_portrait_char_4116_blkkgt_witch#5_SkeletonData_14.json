@@ -1,0 +1,40 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8302033850027404168
+    },
+    "m_Name": "dyn_portrait_char_4116_blkkgt_witch#5_SkeletonData",
+    "atlasAssets": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -7697363686317163412
+        }
+    ],
+    "scale": 0.009999999776482582,
+    "skeletonJSON": {
+        "m_FileID": 0,
+        "m_PathID": 6213712246035201126
+    },
+    "isUpgradingBlendModeMaterials": 0,
+    "blendModeMaterials": {
+        "requiresBlendModeMaterials": 0,
+        "applyAdditiveMaterial": 0,
+        "additiveMaterials": [],
+        "multiplyMaterials": [],
+        "screenMaterials": []
+    },
+    "skeletonDataModifiers": [],
+    "fromAnimation": [],
+    "toAnimation": [],
+    "duration": [],
+    "defaultMix": 0.0,
+    "controller": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    }
+}

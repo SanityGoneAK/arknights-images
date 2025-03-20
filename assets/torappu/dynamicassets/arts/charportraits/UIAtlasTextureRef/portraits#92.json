@@ -141,6 +141,18 @@
                 "h": 180
             },
             "rotate": 1
+        },
+        {
+            "name": "char_190_clour_epoque#43",
+            "guid": "1ac617801a6e83b4db2a57d0e1166a35",
+            "atlas": 0,
+            "rect": {
+                "x": 364,
+                "y": 724,
+                "w": 360,
+                "h": 180
+            },
+            "rotate": 1
         }
     ],
     "_atlas": {
@@ -212,20 +224,25 @@
                 "name": "char_260_durnar_epoque#42",
                 "guid": "3deb399cc66c3ef4d86575b8855c2661",
                 "md5": "99b567e4cd0bf110ac045e8ee2259992"
+            },
+            {
+                "name": "char_190_clour_epoque#43",
+                "guid": "1ac617801a6e83b4db2a57d0e1166a35",
+                "md5": "90d560ae73713fca22e556a0fc316e1b"
             }
         ],
         "m_atlases": [
             {
                 "name": "portraits#92",
                 "guid": "a216bc807c983b4409c22f618643f3c5",
-                "md5": "9b4b15640a6f5cd6675b9b211b3d5d27"
+                "md5": "7ca45b34b2158a3490f092ef7795d0d7"
             }
         ],
         "m_alphas": [
             {
                 "name": "portraits#92a",
                 "guid": "ae7bd8d70daa9bb4ea2b39bd8a41cb1e",
-                "md5": "bb6f829057447e38e6d3b8e4ba7c1a29"
+                "md5": "b52334a3e74db84827e280598d281f17"
             }
         ]
     }
