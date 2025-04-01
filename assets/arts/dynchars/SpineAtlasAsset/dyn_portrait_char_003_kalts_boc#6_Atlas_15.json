@@ -1,0 +1,22 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 1008803689438726606
+    },
+    "m_Name": "dyn_portrait_char_003_kalts_boc#6_Atlas",
+    "atlasFile": {
+        "m_FileID": 0,
+        "m_PathID": 8737892930338346232
+    },
+    "materials": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 3678601007328971269
+        }
+    ]
+}
