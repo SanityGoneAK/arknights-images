@@ -10,7 +10,7 @@ repository = "https://github.com/astral4/arkdata"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-UnityPy = "^1.10.6"
+UnityPy = { git = "https://github.com/MooncellWiki/UnityPy.git", rev = "master" }
 Pillow = "^10.1.0"
 pycryptodome = "^3.19.0"
 pymongo = "^4.5.0"
