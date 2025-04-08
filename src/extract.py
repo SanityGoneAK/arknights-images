@@ -41,14 +41,15 @@ def extract_from_env(env: Environment, source_dir: Path, output_dir: Path):
 
 
 def get_target_path(obj: Object, source_dir: Path, output_dir: Path) -> Path:
-    if obj.container:
-        source_dir = Path(*Path(obj.container).parts[1:-1])
+    # print(obj)
+    # if obj.container:
+    #     source_dir = Path(*Path(obj.container).parts[1:-1])
 
     if isinstance(obj, MonoBehaviour) and (script := obj.m_Script):
-        return output_dir / source_dir / script.read().name
+        return output_dir / source_dir / script.read().m_Name
 
-    assert isinstance(obj.name, str)
-    return output_dir / source_dir / obj.name
+    assert isinstance(obj.m_Name, str)
+    return output_dir / source_dir / obj.m_Name
 
 
 def export(obj: Object, target_path: Path) -> None:
@@ -69,7 +70,7 @@ def export(obj: Object, target_path: Path) -> None:
 
         case TextAsset():
             target_path_str = target_path.as_posix()
-            data = bytes(obj.script)
+            data = bytes(obj.m_Script)
             if "gamedata/story" in target_path_str:
                 # Story text is unencrypted, so the data can be saved without further changes
                 write_bytes(data, target_path.with_suffix(".txt"))
@@ -123,10 +124,10 @@ def export(obj: Object, target_path: Path) -> None:
                 # warn(f"Failed to save audio clip to {target_path}", RuntimeWarning)
 
         case MonoBehaviour():
-            if obj.name:
+            if obj.m_Name:
                 tree = obj.read_typetree()
                 target_path = get_available_path(
-                    target_path.joinpath(obj.name).with_suffix(".json")
+                    target_path.joinpath(obj.m_Name).with_suffix(".json")
                 )
                 write_object(tree, target_path)
 
